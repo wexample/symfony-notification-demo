@@ -23,29 +23,3 @@ en:
     title: The teams tell their members
     intro: Adding someone to a team of the user demo, changing their access or removing them notifies them — and, on arrival, the other administrators.
     open: Open the teams
-
-fr:
-  page_title: Notifications
-  page_icon: ph:bold/bell
-  intro: Dire aux gens ce qu'ils doivent savoir maintenant. Chaque notification arrive dans la boîte ; le mail est un canal que chacun peut couper, par catégorie. En développement, les mails arrivent dans la boîte mail de dev.
-  inbox: Boîte de réception
-  preferences: Préférences
-  sign_in: Connectez-vous avec un compte de test de la démo utilisateur pour recevoir des notifications.
-  sign_in_open: Comptes de test
-  sent: Envoyée. Elle est dans votre boîte, et dans la boîte mail sauf si vous avez coupé le mail.
-  sent_none: Rien d'envoyé — vous avez été relancé il y a moins d'une heure.
-  levels:
-    title: Vous en envoyer une
-    intro: Une catégorie par niveau, envoyée à vous seul.
-    info: Information
-    success: Succès
-    warning: Avertissement
-    danger: Danger
-  reminder:
-    title: Une relance, une fois par heure
-    intro: Envoyée avec notifyOnce() — appuyer à nouveau dans l'heure n'envoie rien, comme une relance quotidienne qui atteint chacun une fois par fenêtre.
-    send: Me relancer
-  teams:
-    title: Les équipes préviennent leurs membres
-    intro: Ajouter quelqu'un à une équipe de la démo utilisateur, changer ses accès ou le retirer le prévient — et, à son arrivée, les autres administrateurs.
-    open: Ouvrir les équipes
