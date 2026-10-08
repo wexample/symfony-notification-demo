@@ -1,0 +1,83 @@
+en:
+  demo:
+    group:
+      try: Demo
+      teams: Teams
+  info:
+    label: Information sent from the demo
+    title: An information
+    body: Sent from the notification demo.
+  success:
+    label: Success sent from the demo
+    title: Something went well
+    body: Sent from the notification demo.
+  warning:
+    label: Warning sent from the demo
+    title: Something to look at
+    body: Sent from the notification demo.
+  danger:
+    label: Danger sent from the demo
+    title: Something went wrong
+    body: Sent from the notification demo.
+  reminder:
+    label: Demo reminder
+    title: A reminder
+    body: You will not get another one within the hour.
+  team_joined:
+    label: Added to a team
+    title: You joined %team%
+    body: "Access: %grants%."
+  team_grants_changed:
+    label: Access changed in a team
+    title: Your access to %team% changed
+    body: "Access: %grants%."
+  team_left:
+    label: Removed from a team
+    title: You left %team%
+    body: You no longer have access to it.
+  team_member_joined:
+    label: Someone joined a team I administer
+    title: "%member% joined %team%"
+    body: "Access: %grants%."
+
+fr:
+  demo:
+    group:
+      try: Démo
+      teams: Équipes
+  info:
+    label: Information envoyée depuis la démo
+    title: Une information
+    body: Envoyée depuis la démo des notifications.
+  success:
+    label: Succès envoyé depuis la démo
+    title: Quelque chose s'est bien passé
+    body: Envoyée depuis la démo des notifications.
+  warning:
+    label: Avertissement envoyé depuis la démo
+    title: Quelque chose à regarder
+    body: Envoyée depuis la démo des notifications.
+  danger:
+    label: Danger envoyé depuis la démo
+    title: Quelque chose s'est mal passé
+    body: Envoyée depuis la démo des notifications.
+  reminder:
+    label: Relance de la démo
+    title: Une relance
+    body: Vous n'en aurez pas d'autre dans l'heure.
+  team_joined:
+    label: Ajouté à une équipe
+    title: Vous avez rejoint %team%
+    body: "Accès : %grants%."
+  team_grants_changed:
+    label: Accès changés dans une équipe
+    title: Vos accès à %team% ont changé
+    body: "Accès : %grants%."
+  team_left:
+    label: Retiré d'une équipe
+    title: Vous avez quitté %team%
+    body: Vous n'y avez plus accès.
+  team_member_joined:
+    label: Quelqu'un a rejoint une équipe que j'administre
+    title: "%member% a rejoint %team%"
+    body: "Accès : %grants%."

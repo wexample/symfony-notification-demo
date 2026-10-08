@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyNotificationDemo\EventSubscriber\:
+        resource: '../../EventSubscriber/'
+
+    Wexample\SymfonyNotificationDemo\Controller\:
+        resource: '../../Controller/'
+        tags: ['controller.service_arguments']

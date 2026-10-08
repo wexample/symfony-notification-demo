@@ -1,11 +1,42 @@
 {
   "name": "wexample/symfony-notification-demo",
+  "description": "Demo of symfony-notification: notifications sent on request, a reminder once per window, and the teams of symfony-user-demo telling their members",
   "version": "1.0.1",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyNotificationDemo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-helpers": ">=15.0.0",
+    "wexample/symfony-loader": ">=22.0.0",
+    "wexample/symfony-design-system": ">=32.0.0",
+    "wexample/symfony-notification": ">=1.0.1",
+    "wexample/symfony-notification-ds": ">=1.0.1",
+    "wexample/symfony-user": ">=11.0.0",
+    "wexample/symfony-user-demo": ">=1.0.1"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
     }
   }
 }

@@ -1,0 +1,78 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{#- Notifications to oneself, on request: one per level, a reminder at most
+    once an hour, and what the teams of the user demo send by themselves. -#}
+{%- block page_title_actions -%}
+    {%- if app.user -%}
+        {{ button_link('ph:bold/bell', '@page::inbox' | trans, path('notification_inbox'), { class: 'button' }) }}
+        {{ button_link('ph:bold/sliders-horizontal', '@page::preferences' | trans, path('notification_preferences'), { class: 'button' }) }}
+    {%- endif -%}
+{%- endblock -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {%- if not app.user -%}
+        {{ message_info('@page::sign_in' | trans) }}
+        <div class="cluster">
+            {{ button_link('ph:bold/sign-in', '@page::sign_in_open' | trans, path('user_index')) }}
+        </div>
+    {%- else -%}
+        {%- if sent == 'none' -%}
+            {{ message_warning('@page::sent_none' | trans) }}
+        {%- elseif sent -%}
+            {{ message_success('@page::sent' | trans) }}
+        {%- endif -%}
+
+        {%- set level_icons = { info: 'ph:bold/info', success: 'ph:bold/check-circle', warning: 'ph:bold/warning', danger: 'ph:bold/warning-octagon' } -%}
+
+        <section class="block block--card">
+            <div class="block--title">
+                <span class="block--title-leading">{{ icon('ph:bold/paper-plane-tilt') }}</span>
+                <span class="block--title-label">{{ '@page::levels.title' | trans }}</span>
+            </div>
+            <div class="block--body">
+                <p class="text-secondary">{{ '@page::levels.intro' | trans }}</p>
+            </div>
+            <div class="block--footer cluster">
+                {%- for level in levels -%}
+                    <form method="post" action="{{ path('notification_demo_send', { level: level }) }}">
+                        <input type="hidden" name="_token" value="{{ csrf_token(csrf_token_id) }}">
+                        {{ button(level_icons[level], ('@page::levels.' ~ level) | trans, { type: 'submit', class: 'button--flat' }) }}
+                    </form>
+                {%- endfor -%}
+            </div>
+        </section>
+
+        <section class="block block--card">
+            <div class="block--title">
+                <span class="block--title-leading">{{ icon('ph:bold/alarm') }}</span>
+                <span class="block--title-label">{{ '@page::reminder.title' | trans }}</span>
+            </div>
+            <div class="block--body">
+                <p class="text-secondary">{{ '@page::reminder.intro' | trans }}</p>
+            </div>
+            <div class="block--footer cluster">
+                <form method="post" action="{{ path('notification_demo_send', { level: 'reminder' }) }}">
+                    <input type="hidden" name="_token" value="{{ csrf_token(csrf_token_id) }}">
+                    {{ button('ph:bold/alarm', '@page::reminder.send' | trans, { type: 'submit', class: 'button--flat' }) }}
+                </form>
+            </div>
+        </section>
+
+        <section class="block block--card">
+            <div class="block--title">
+                <span class="block--title-leading">{{ icon('ph:bold/users-three') }}</span>
+                <span class="block--title-label">{{ '@page::teams.title' | trans }}</span>
+            </div>
+            <div class="block--body">
+                <p class="text-secondary">{{ '@page::teams.intro' | trans }}</p>
+            </div>
+            <div class="block--footer cluster">
+                {{ button_link('ph:bold/users-three', '@page::teams.open' | trans, path('user_teams'), { class: 'button--flat' }) }}
+            </div>
+        </section>
+    {%- endif -%}
+{%- endblock -%}
