@@ -7,11 +7,13 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyNotification\Class\NotificationCategory;
 use Wexample\SymfonyNotification\Service\NotificationService;
 use Wexample\SymfonyNotificationDemo\Traits\SymfonyNotificationDemoBundleClassTrait;
+use Wexample\SymfonyUserDemo\Controller\Pages\UserController;
 
 /**
  * Notifications sent to oneself on request, one per level, and a reminder
@@ -29,6 +31,8 @@ final class NotificationDemoController extends AbstractPagesController
     private const string CSRF_TOKEN_ID = 'submit';
 
     #[Route(path: '', name: self::ROUTE_INDEX)]
+    // A user's notifications, under the user's menu entry.
+    #[MenuItem(UserController::MENU_GROUP, 3)]
     public function index(Request $request): Response
     {
         return $this->renderPage(self::ROUTE_INDEX, [
