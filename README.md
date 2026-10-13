@@ -1,6 +1,6 @@
 # symfony-notification-demo
 
-Version: 2.0.0
+Version: 2.0.1
 
 Demo of symfony-notification: notifications sent on request, a reminder once per window, and the teams of symfony-user-demo telling their members
 
@@ -28,7 +28,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - php: >=8.5
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-notification: >=2.0.0
 - wexample/symfony-notification-ds: >=2.0.0
 - wexample/symfony-user: >=12.0.0
