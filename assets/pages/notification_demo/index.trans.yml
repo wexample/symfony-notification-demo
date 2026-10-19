@@ -23,3 +23,55 @@ en:
     title: The teams tell their members
     intro: Adding someone to a team of the user demo, changing their access or removing them notifies them — and, on arrival, the other administrators.
     open: Open the teams
+
+fr:
+  page_title: Notifications
+  page_icon: 'ph:bold/bell'
+  intro: "Informer les gens de ce qu'ils doivent savoir maintenant. Chaque notification arrive dans la boîte de réception ; le mail est un canal que chacun peut désactiver, par catégorie. En développement, les mails arrivent dans la boîte aux lettres."
+  inbox: 'Boîte de réception'
+  preferences: Préférences
+  sign_in: 'Connectez-vous avec un compte de test de la démo utilisateur pour recevoir des notifications.'
+  sign_in_open: 'Comptes de test'
+  sent: "Envoyé. C'est dans votre boîte de réception et dans la boîte aux lettres, à moins que vous n'ayez désactivé le mail."
+  sent_none: "Rien envoyé — vous avez été rappelé il y a moins d'une heure."
+  levels:
+    title: 'Envoyez-vous un message'
+    intro: 'Une catégorie par niveau, envoyée uniquement à vous.'
+    info: Information
+    success: Succès
+    warning: Avertissement
+    danger: Danger
+  reminder:
+    title: 'Un rappel, une fois par heure'
+    intro: "Envoyé avec notifyOnce() — appuyer à nouveau dans l'heure n'envoie rien, comme un rappel quotidien atteint chaque personne une fois par fenêtre."
+    send: Rappelez-moi
+  teams:
+    title: 'Les équipes informent leurs membres'
+    intro: "Ajouter quelqu'un à une équipe de la démo utilisateur, changer son accès ou le retirer le notifie — et, à son arrivée, les autres administrateurs."
+    open: 'Ouvrir les équipes'
+
+zh:
+  page_title: 通知
+  page_icon: 'ph:bold/bell'
+  intro: 告诉人们他们现在必须知道的事情。每个通知都会出现在收件箱中；邮件是每个人可以按类别关闭的渠道。在开发中，邮件会发送到邮箱。
+  inbox: 收件箱
+  preferences: 偏好设置
+  sign_in: 使用用户演示的测试帐户登录以接收通知。
+  sign_in_open: 测试帐户
+  sent: 已发送。它在您的收件箱中，除非您关闭了邮件功能，邮件也会在邮箱中。
+  sent_none: '未发送任何内容 — 您在不到一个小时前已收到提醒。'
+  levels:
+    title: 给自己发送一个
+    intro: 每个级别一个类别，仅发送给您。
+    info: 信息
+    success: 成功
+    warning: 警告
+    danger: 危险
+  reminder:
+    title: 每小时一次的提醒
+    intro: '使用notifyOnce()发送 — 在一小时内再次按下不会发送任何内容，就像每日提醒每人每个窗口只到一次。'
+    send: 提醒我
+  teams:
+    title: 团队通知他们的成员
+    intro: '将某人添加到用户演示的团队中，改变他们的访问权限或将其移除会通知他们 — 并且在到达时通知其他管理员。'
+    open: 打开团队

@@ -39,3 +39,87 @@ en:
     label: Someone joined a team I administer
     title: "%member% joined %team%"
     body: "Access: %grants%."
+
+fr:
+  demo:
+    group:
+      try: Démo
+      teams: Équipes
+  info:
+    label: 'Information envoyée depuis la démo'
+    title: 'Une information'
+    body: 'Envoyé depuis la démo de notification.'
+  success:
+    label: 'Succès envoyé depuis la démo'
+    title: "Quelque chose s'est bien passé"
+    body: 'Envoyé depuis la démo de notification.'
+  warning:
+    label: 'Avertissement envoyé depuis la démo'
+    title: 'Quelque chose à examiner'
+    body: 'Envoyé depuis la démo de notification.'
+  danger:
+    label: 'Danger envoyé depuis la démo'
+    title: "Quelque chose s'est mal passé"
+    body: 'Envoyé depuis la démo de notification.'
+  reminder:
+    label: 'Rappel de démo'
+    title: 'Un rappel'
+    body: "Vous n'en recevrez pas d'autre dans l'heure."
+  team_joined:
+    label: 'Ajouté à une équipe'
+    title: 'Vous avez rejoint %team%'
+    body: 'Accès : %grants%.'
+  team_grants_changed:
+    label: 'Accès modifié dans une équipe'
+    title: 'Votre accès à %team% a changé'
+    body: 'Accès : %grants%.'
+  team_left:
+    label: "Retiré d'une équipe"
+    title: 'Vous avez quitté %team%'
+    body: "Vous n'y avez plus accès."
+  team_member_joined:
+    label: "Quelqu'un a rejoint une équipe que j'administre"
+    title: '%member% a rejoint %team%'
+    body: 'Accès : %grants%.'
+
+zh:
+  demo:
+    group:
+      try: 演示
+      teams: 团队
+  info:
+    label: 来自演示的信息
+    title: 一条信息
+    body: 来自通知演示。
+  success:
+    label: 来自演示的成功
+    title: 一切顺利
+    body: 来自通知演示。
+  warning:
+    label: 来自演示的警告
+    title: 需要注意的事项
+    body: 来自通知演示。
+  danger:
+    label: 来自演示的危险
+    title: 出现了问题
+    body: 来自通知演示。
+  reminder:
+    label: 演示提醒
+    title: 一个提醒
+    body: 在一个小时内不会再收到其他提醒。
+  team_joined:
+    label: 已加入团队
+    title: '您已加入 %team%'
+    body: '访问权限: %grants%。'
+  team_grants_changed:
+    label: 团队中的访问权限已改变
+    title: '您对 %team% 的访问权限已更改'
+    body: '访问权限: %grants%。'
+  team_left:
+    label: 已退出团队
+    title: '您已离开 %team%'
+    body: 您不再有权访问。
+  team_member_joined:
+    label: 有人加入我管理的团队
+    title: '%member% 加入了 %team%'
+    body: '访问权限: %grants%。'
