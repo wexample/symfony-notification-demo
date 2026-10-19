@@ -123,3 +123,843 @@ zh:
     label: 有人加入我管理的团队
     title: '%member% 加入了 %team%'
     body: '访问权限: %grants%。'
+
+ar:
+  demo:
+    group:
+      try: تجربة
+      teams: الفرق
+  info:
+    label: 'معلومات تم إرسالها من التجربة'
+    title: معلومات
+    body: 'تم إرسالها من تجربة الإشعارات.'
+  success:
+    label: 'نجاح تم إرساله من التجربة'
+    title: 'حدث شيء جيد'
+    body: 'تم إرساله من تجربة الإشعارات.'
+  warning:
+    label: 'تحذير تم إرساله من التجربة'
+    title: 'شيء يحتاج إلى النظر فيه'
+    body: 'تم إرساله من تجربة الإشعارات.'
+  danger:
+    label: 'خطر تم إرساله من التجربة'
+    title: 'حدث شيء خاطئ'
+    body: 'تم إرساله من تجربة الإشعارات.'
+  reminder:
+    label: 'تذكير بالتجربة'
+    title: تذكير
+    body: 'لن تتلقى واحدة أخرى خلال الساعة.'
+  team_joined:
+    label: 'تم إضافتك إلى فريق'
+    title: 'لقد انضممت إلى %team%'
+    body: 'الوصول: %grants%.'
+  team_grants_changed:
+    label: 'تغير الوصول في فريق'
+    title: 'تغير وصولك إلى %team%'
+    body: 'الوصول: %grants%.'
+  team_left:
+    label: 'تم إزالتك من فريق'
+    title: 'لقد تركت %team%'
+    body: 'لم تعد لديك إمكانية الوصول إليه.'
+  team_member_joined:
+    label: 'انضم شخص ما إلى فريق أديره'
+    title: '%member% انضم إلى %team%'
+    body: 'الوصول: %grants%.'
+
+hi:
+  demo:
+    group:
+      try: डेमो
+      teams: टीम्स
+  info:
+    label: 'डेमो से भेजी गई जानकारी'
+    title: 'एक जानकारी'
+    body: 'नोटिफिकेशन डेमो से भेजी गई।'
+  success:
+    label: 'डेमो से भेजी गई सफलता'
+    title: 'कुछ अच्छा हुआ'
+    body: 'नोटिफिकेशन डेमो से भेजा गया।'
+  warning:
+    label: 'डेमो से भेजी गई चेतावनी'
+    title: 'कुछ देखना है'
+    body: 'नोटिफिकेशन डेमो से भेजा गया।'
+  danger:
+    label: 'डेमो से भेजा गया खतरा'
+    title: 'कुछ गलत हुआ'
+    body: 'नोटिफिकेशन डेमो से भेजा गया।'
+  reminder:
+    label: 'डेमो अनुस्मारक'
+    title: 'एक अनुस्मारक'
+    body: 'आपको एक घंटे के भीतर और कोई नहीं मिलेगा।'
+  team_joined:
+    label: 'टीम में जोड़ा गया'
+    title: 'आप %team% में शामिल हुए'
+    body: 'एक्सेस: %grants%।'
+  team_grants_changed:
+    label: 'टीम में एक्सेस बदला गया'
+    title: 'आपकी %team% के लिए एक्सेस बदली गई'
+    body: 'एक्सेस: %grants%।'
+  team_left:
+    label: 'टीम से हटा दिया गया'
+    title: 'आप %team% से निकल गए'
+    body: 'आपको अब इसका एक्सेस नहीं है।'
+  team_member_joined:
+    label: 'कोई मेरे द्वारा प्रशासित टीम में शामिल हुआ'
+    title: '%member% ने %team% में शामिल हो गए'
+    body: 'एक्सेस: %grants%।'
+
+he:
+  demo:
+    group:
+      try: דמו
+      teams: צוותים
+  info:
+    label: 'מידע נשלח מהדמו'
+    title: מידע
+    body: 'נשלח מהדמו של ההודעות.'
+  success:
+    label: 'הצלחה נשלחה מהדמו'
+    title: 'משהו הלך טוב'
+    body: 'נשלח מהדמו של ההודעות.'
+  warning:
+    label: 'אזהרה נשלחה מהדמו'
+    title: 'משהו שצריך לבדוק'
+    body: 'נשלח מהדמו של ההודעות.'
+  danger:
+    label: 'סכנה נשלחה מהדמו'
+    title: 'משהו השתבש'
+    body: 'נשלח מהדמו של ההודעות.'
+  reminder:
+    label: 'תזכורת דמו'
+    title: תזכורת
+    body: 'לא תקבל אחד נוסף בתוך שעה.'
+  team_joined:
+    label: 'נוסף לצוות'
+    title: 'הצטרפת ל-%team%'
+    body: 'גישה: %grants%.'
+  team_grants_changed:
+    label: 'שינוי גישה בצוות'
+    title: 'הגישה שלך ל-%team% השתנתה'
+    body: 'גישה: %grants%.'
+  team_left:
+    label: 'הוסר מצוות'
+    title: 'עזבת את %team%'
+    body: 'אין לך עוד גישה אליו.'
+  team_member_joined:
+    label: 'מישהו הצטרף לצוות שאני מנהל'
+    title: '%member% הצטרף ל-%team%'
+    body: 'גישה: %grants%.'
+
+fa:
+  demo:
+    group:
+      try: دمو
+      teams: تیم‌ها
+  info:
+    label: 'اطلاعات ارسال شده از دمو'
+    title: 'یک اطلاعات'
+    body: 'ارسال شده از دمو نوتیفیکیشن.'
+  success:
+    label: 'موفقیت ارسال شده از دمو'
+    title: 'چیزی خوب پیش رفت'
+    body: 'ارسال شده از دمو نوتیفیکیشن.'
+  warning:
+    label: 'هشدار ارسال شده از دمو'
+    title: 'چیزی برای توجه'
+    body: 'ارسال شده از دمو نوتیفیکیشن.'
+  danger:
+    label: 'خطر ارسال شده از دمو'
+    title: 'چیزی اشتباه پیش رفت'
+    body: 'ارسال شده از دمو نوتیفیکیشن.'
+  reminder:
+    label: 'یادآوری دمو'
+    title: 'یک یادآوری'
+    body: 'شما در طول یک ساعت دیگری دریافت نخواهید کرد.'
+  team_joined:
+    label: 'به یک تیم اضافه شد'
+    title: 'شما به %team% پیوستید'
+    body: 'دسترسی: %grants%.'
+  team_grants_changed:
+    label: 'دسترسی در یک تیم تغییر کرد'
+    title: 'دسترسی شما به %team% تغییر کرد'
+    body: 'دسترسی: %grants%.'
+  team_left:
+    label: 'از یک تیم حذف شد'
+    title: 'شما از %team% خارج شدید'
+    body: 'شما دیگر به آن دسترسی ندارید.'
+  team_member_joined:
+    label: 'کسی به تیمی که من مدیریت می کنم پیوست'
+    title: '%member% به %team% پیوست'
+    body: 'دسترسی: %grants%.'
+
+ur:
+  demo:
+    group:
+      try: ڈیمو
+      teams: ٹیمیں
+  info:
+    label: 'ڈیمو سے بھیجی گئی معلومات'
+    title: 'ایک معلومات'
+    body: 'نوٹیفکیشن ڈیمو سے بھیجی گئی۔'
+  success:
+    label: 'ڈیمو سے کامیابی کے ساتھ بھیجا گیا'
+    title: 'کچھ اچھا ہوا'
+    body: 'نوٹیفکیشن ڈیمو سے بھیجا گیا۔'
+  warning:
+    label: 'ڈیمو سے انتباہ بھیجا گیا'
+    title: 'کچھ دیکھنے کی ضرورت ہے'
+    body: 'نوٹیفکیشن ڈیمو سے بھیجا گیا۔'
+  danger:
+    label: 'ڈیمو سے خطرہ بھیجا گیا'
+    title: 'کچھ غلط ہوا'
+    body: 'نوٹیفکیشن ڈیمو سے بھیجا گیا۔'
+  reminder:
+    label: 'ڈیمو یاد دہانی'
+    title: 'ایک یاد دہانی'
+    body: 'آپ کو ایک گھنٹے کے اندر دوسرا نہیں ملے گا۔'
+  team_joined:
+    label: 'ایک ٹیم میں شامل کیا گیا'
+    title: 'آپ نے %team% میں شمولیت اختیار کی'
+    body: 'دسترسی: %grants%۔'
+  team_grants_changed:
+    label: 'ٹیم میں رسائی تبدیل ہوئی'
+    title: 'آپ کی %team% تک رسائی تبدیل ہوئی'
+    body: 'دسترسی: %grants%۔'
+  team_left:
+    label: 'ایک ٹیم سے نکالا گیا'
+    title: 'آپ نے %team% چھوڑ دیا'
+    body: 'آپ کو اب اس تک رسائی نہیں ہے۔'
+  team_member_joined:
+    label: 'کسی نے میری انتظام کردہ ٹیم میں شمولیت اختیار کی'
+    title: '%member% نے %team% میں شمولیت اختیار کی'
+    body: 'دسترسی: %grants%۔'
+
+ja:
+  demo:
+    group:
+      try: デモ
+      teams: チーム
+  info:
+    label: デモから送信された情報
+    title: 情報
+    body: 通知デモから送信されました。
+  success:
+    label: デモから送信された成功
+    title: うまくいきました
+    body: 通知デモから送信されました。
+  warning:
+    label: デモから送信された警告
+    title: 注意が必要なこと
+    body: 通知デモから送信されました。
+  danger:
+    label: デモから送信された危険
+    title: 何かがうまくいかなかった
+    body: 通知デモから送信されました。
+  reminder:
+    label: デモのリマインダー
+    title: リマインダー
+    body: 1時間以内にもう1つは受け取りません。
+  team_joined:
+    label: チームに追加されました
+    title: あなたは%team%に参加しました
+    body: 'アクセス: %grants%。'
+  team_grants_changed:
+    label: チーム内のアクセスが変更されました
+    title: あなたのアクセスが%team%に変更されました
+    body: 'アクセス: %grants%。'
+  team_left:
+    label: チームから削除されました
+    title: あなたは%team%を離れました
+    body: もはやアクセスできません。
+  team_member_joined:
+    label: 私が管理するチームに誰かが参加しました
+    title: '%member%が%team%に参加しました'
+    body: 'アクセス: %grants%。'
+
+ko:
+  demo:
+    group:
+      try: 데모
+      teams: 팀
+  info:
+    label: '데모에서 전송된 정보'
+    title: 정보
+    body: '알림 데모에서 전송되었습니다.'
+  success:
+    label: '데모에서 전송된 성공'
+    title: '모든 것이 잘 진행되었습니다'
+    body: '알림 데모에서 전송되었습니다.'
+  warning:
+    label: '데모에서 전송된 경고'
+    title: '주의할 사항'
+    body: '알림 데모에서 전송되었습니다.'
+  danger:
+    label: '데모에서 전송된 위험'
+    title: '문제가 발생했습니다'
+    body: '알림 데모에서 전송되었습니다.'
+  reminder:
+    label: '데모 알림'
+    title: 알림
+    body: '한 시간 이내에는 다른 알림을 받지 않습니다.'
+  team_joined:
+    label: '팀에 추가됨'
+    title: '%team%에 참여하셨습니다'
+    body: '접근 권한: %grants%.'
+  team_grants_changed:
+    label: '팀에서 접근 권한 변경됨'
+    title: '%team%에 대한 접근 권한이 변경되었습니다'
+    body: '접근 권한: %grants%.'
+  team_left:
+    label: '팀에서 제거됨'
+    title: '%team%에서 나갔습니다'
+    body: '더 이상 접근할 수 없습니다.'
+  team_member_joined:
+    label: '내가 관리하는 팀에 누군가가 참여함'
+    title: '%member%이 %team%에 참여했습니다'
+    body: '접근 권한: %grants%.'
+
+bn:
+  demo:
+    group:
+      try: ডেমো
+      teams: দল
+  info:
+    label: 'ডেমো থেকে পাঠানো তথ্য'
+    title: 'একটি তথ্য'
+    body: 'নোটিফিকেশন ডেমো থেকে পাঠানো হয়েছে।'
+  success:
+    label: 'ডেমো থেকে সফলভাবে পাঠানো হয়েছে'
+    title: 'কিছু ভালো গেছে'
+    body: 'নোটিফিকেশন ডেমো থেকে পাঠানো হয়েছে।'
+  warning:
+    label: 'ডেমো থেকে সতর্কতা পাঠানো হয়েছে'
+    title: 'দেখার জন্য কিছু'
+    body: 'নোটিফিকেশন ডেমো থেকে পাঠানো হয়েছে।'
+  danger:
+    label: 'ডেমো থেকে বিপদ পাঠানো হয়েছে'
+    title: 'কিছু ভুল হয়েছে'
+    body: 'নোটিফিকেশন ডেমো থেকে পাঠানো হয়েছে।'
+  reminder:
+    label: 'ডেমো রিমাইন্ডার'
+    title: 'একটি রিমাইন্ডার'
+    body: 'আপনি এক ঘণ্টার মধ্যে আর একটি পাবেন না।'
+  team_joined:
+    label: 'একটি দলে যুক্ত হয়েছে'
+    title: 'আপনি %team% এ যোগদান করেছেন'
+    body: 'অ্যাক্সেস: %grants%।'
+  team_grants_changed:
+    label: 'একটি দলে অ্যাক্সেস পরিবর্তিত হয়েছে'
+    title: 'আপনার %team% এ অ্যাক্সেস পরিবর্তিত হয়েছে'
+    body: 'অ্যাক্সেস: %grants%।'
+  team_left:
+    label: 'একটি দলে থেকে অপসারিত হয়েছে'
+    title: 'আপনি %team% ছেড়ে এসেছেন'
+    body: 'আপনার এটি অ্যাক্সেস নেই।'
+  team_member_joined:
+    label: 'কেউ একটি দলে যোগ দিয়েছে যা আমি পরিচালনা করি'
+    title: '%member% %team% এ যোগদান করেছে'
+    body: 'অ্যাক্সেস: %grants%।'
+
+th:
+  demo:
+    group:
+      try: เดโม
+      teams: ทีม
+  info:
+    label: ข้อมูลที่ส่งจากเดโม
+    title: ข้อมูลหนึ่ง
+    body: ส่งมาจากเดโมการแจ้งเตือน
+  success:
+    label: ความสำเร็จที่ส่งจากเดโม
+    title: มีบางอย่างที่ดี
+    body: ส่งมาจากเดโมการแจ้งเตือน
+  warning:
+    label: คำเตือนที่ส่งจากเดโม
+    title: มีบางอย่างที่ต้องดู
+    body: ส่งมาจากเดโมการแจ้งเตือน
+  danger:
+    label: อันตรายที่ส่งจากเดโม
+    title: มีบางอย่างผิดพลาด
+    body: ส่งมาจากเดโมการแจ้งเตือน
+  reminder:
+    label: การเตือนความจำเดโม
+    title: การเตือนความจำ
+    body: คุณจะไม่ได้รับอีกหนึ่งในชั่วโมงนี้
+  team_joined:
+    label: เพิ่มเข้าทีม
+    title: 'คุณเข้าร่วม %team%'
+    body: 'การเข้าถึง: %grants%.'
+  team_grants_changed:
+    label: การเข้าถึงเปลี่ยนในทีม
+    title: 'การเข้าถึงของคุณที่ %team% เปลี่ยนแล้ว'
+    body: 'การเข้าถึง: %grants%.'
+  team_left:
+    label: ออกจากทีม
+    title: 'คุณออกจาก %team%'
+    body: คุณไม่มีการเข้าถึงอีกต่อไป
+  team_member_joined:
+    label: มีคนเข้าร่วมทีมที่ฉันดูแล
+    title: '%member% เข้าร่วม %team%'
+    body: 'การเข้าถึง: %grants%.'
+
+de:
+  demo:
+    group:
+      try: Demo
+      teams: Teams
+  info:
+    label: 'Information wurde von der Demo gesendet'
+    title: 'Eine Information'
+    body: 'Von der Benachrichtigungs-Demo gesendet.'
+  success:
+    label: 'Erfolg wurde von der Demo gesendet'
+    title: 'Etwas lief gut'
+    body: 'Von der Benachrichtigungs-Demo gesendet.'
+  warning:
+    label: 'Warnung wurde von der Demo gesendet'
+    title: 'Etwas ist zu beachten'
+    body: 'Von der Benachrichtigungs-Demo gesendet.'
+  danger:
+    label: 'Gefahr wurde von der Demo gesendet'
+    title: 'Etwas ist schiefgegangen'
+    body: 'Von der Benachrichtigungs-Demo gesendet.'
+  reminder:
+    label: Demo-Erinnerung
+    title: 'Eine Erinnerung'
+    body: 'Sie werden innerhalb der nächsten Stunde keine weitere erhalten.'
+  team_joined:
+    label: 'Zu einem Team hinzugefügt'
+    title: 'Sie sind %team% beigetreten'
+    body: 'Zugriff: %grants%.'
+  team_grants_changed:
+    label: 'Zugriff in einem Team geändert'
+    title: 'Ihr Zugriff auf %team% wurde geändert'
+    body: 'Zugriff: %grants%.'
+  team_left:
+    label: 'Aus einem Team entfernt'
+    title: 'Sie haben %team% verlassen'
+    body: 'Sie haben keinen Zugriff mehr darauf.'
+  team_member_joined:
+    label: 'Jemand ist einem Team beigetreten, das ich verwalte'
+    title: '%member% ist %team% beigetreten'
+    body: 'Zugriff: %grants%.'
+
+fi:
+  demo:
+    group:
+      try: Demo
+      teams: Tiimit
+  info:
+    label: 'Tietoa lähetettiin demosta'
+    title: Tieto
+    body: 'Lähetetty ilmoitusdemosta.'
+  success:
+    label: 'Onnistuminen lähetetty demosta'
+    title: 'Jokin meni hyvin'
+    body: 'Lähetetty ilmoitusdemosta.'
+  warning:
+    label: 'Varoitus lähetetty demosta'
+    title: 'Jotain, johon kannattaa kiinnittää huomiota'
+    body: 'Lähetetty ilmoitusdemosta.'
+  danger:
+    label: 'Vaara lähetetty demosta'
+    title: 'Jokin meni pieleen'
+    body: 'Lähetetty ilmoitusdemosta.'
+  reminder:
+    label: 'Demon muistutus'
+    title: Muistutus
+    body: 'Et saa toista yhtä pian tunnin sisällä.'
+  team_joined:
+    label: 'Lisätty tiimiin'
+    title: 'Liityit %team%'
+    body: 'Pääsy: %grants%.'
+  team_grants_changed:
+    label: 'Pääsy muuttui tiimissä'
+    title: 'Pääsysi %team% muuttui'
+    body: 'Pääsy: %grants%.'
+  team_left:
+    label: 'Poistettu tiimistä'
+    title: 'Lähdit %team%'
+    body: 'Sinulla ei ole enää pääsyä siihen.'
+  team_member_joined:
+    label: 'Joku liittyi tiimiin, jota hallinnoin'
+    title: '%member% liittyi %team%'
+    body: 'Pääsy: %grants%.'
+
+ru:
+  demo:
+    group:
+      try: Демо
+      teams: Команды
+  info:
+    label: 'Информация, отправленная из демо'
+    title: Информация
+    body: 'Отправлено из демо уведомления.'
+  success:
+    label: 'Успешно отправлено из демо'
+    title: 'Все прошло хорошо'
+    body: 'Отправлено из демо уведомления.'
+  warning:
+    label: 'Предупреждение, отправленное из демо'
+    title: 'На что-то стоит обратить внимание'
+    body: 'Отправлено из демо уведомления.'
+  danger:
+    label: 'Опасность, отправленная из демо'
+    title: 'Что-то пошло не так'
+    body: 'Отправлено из демо уведомления.'
+  reminder:
+    label: 'Напоминание о демо'
+    title: Напоминание
+    body: 'Вы не получите другое в течение часа.'
+  team_joined:
+    label: 'Добавлен в команду'
+    title: 'Вы присоединились к %team%'
+    body: 'Доступ: %grants%.'
+  team_grants_changed:
+    label: 'Изменен доступ в команде'
+    title: 'Ваш доступ к %team% изменен'
+    body: 'Доступ: %grants%.'
+  team_left:
+    label: 'Удален из команды'
+    title: 'Вы покинули %team%'
+    body: 'Теперь у вас нет к нему доступа.'
+  team_member_joined:
+    label: 'К команде, которую я администрирую, присоединился кто-то'
+    title: '%member% присоединился к %team%'
+    body: 'Доступ: %grants%.'
+
+pl:
+  demo:
+    group:
+      try: Demo
+      teams: Zespoły
+  info:
+    label: 'Informacja wysłana z dema'
+    title: Informacja
+    body: 'Wysłano z dema powiadomień.'
+  success:
+    label: 'Sukces wysłany z dema'
+    title: 'Coś poszło dobrze'
+    body: 'Wysłano z dema powiadomień.'
+  warning:
+    label: 'Ostrzeżenie wysłane z dema'
+    title: 'Coś, na co warto zwrócić uwagę'
+    body: 'Wysłano z dema powiadomień.'
+  danger:
+    label: 'Niebezpieczeństwo wysłane z dema'
+    title: 'Coś poszło nie tak'
+    body: 'Wysłano z dema powiadomień.'
+  reminder:
+    label: 'Przypomnienie o demie'
+    title: Przypomnienie
+    body: 'Nie otrzymasz kolejnego w ciągu godziny.'
+  team_joined:
+    label: 'Dodano do zespołu'
+    title: 'Dołączyłeś do %team%'
+    body: 'Dostęp: %grants%.'
+  team_grants_changed:
+    label: 'Zmiana dostępu w zespole'
+    title: 'Twój dostęp do %team% zmieniony'
+    body: 'Dostęp: %grants%.'
+  team_left:
+    label: 'Usunięto z zespołu'
+    title: 'Opuszczono %team%'
+    body: 'Nie masz już do niego dostępu.'
+  team_member_joined:
+    label: 'Ktoś dołączył do zespołu, który administrować'
+    title: '%member% dołączył do %team%'
+    body: 'Dostęp: %grants%.'
+
+es:
+  demo:
+    group:
+      try: Demostración
+      teams: Equipos
+  info:
+    label: 'Información enviada desde la demostración'
+    title: 'Una información'
+    body: 'Enviada desde la demostración de notificaciones.'
+  success:
+    label: 'Éxito enviado desde la demostración'
+    title: 'Algo salió bien'
+    body: 'Enviado desde la demostración de notificaciones.'
+  warning:
+    label: 'Advertencia enviada desde la demostración'
+    title: 'Algo a tener en cuenta'
+    body: 'Enviado desde la demostración de notificaciones.'
+  danger:
+    label: 'Peligro enviado desde la demostración'
+    title: 'Algo salió mal'
+    body: 'Enviado desde la demostración de notificaciones.'
+  reminder:
+    label: 'Recordatorio de demostración'
+    title: 'Un recordatorio'
+    body: 'No recibirás otro en la próxima hora.'
+  team_joined:
+    label: 'Añadido a un equipo'
+    title: 'Te uniste a %team%'
+    body: 'Acceso: %grants%.'
+  team_grants_changed:
+    label: 'Acceso cambiado en un equipo'
+    title: 'Tu acceso a %team% ha cambiado'
+    body: 'Acceso: %grants%.'
+  team_left:
+    label: 'Eliminado de un equipo'
+    title: 'Saliste de %team%'
+    body: 'Ya no tienes acceso a él.'
+  team_member_joined:
+    label: 'Alguien se unió a un equipo que administro'
+    title: '%member% se unió a %team%'
+    body: 'Acceso: %grants%.'
+
+it:
+  demo:
+    group:
+      try: Demo
+      teams: Team
+  info:
+    label: 'Informazioni inviate dal demo'
+    title: "Un'informazione"
+    body: 'Inviato dal demo di notifica.'
+  success:
+    label: 'Successo inviato dal demo'
+    title: 'Qualcosa è andato bene'
+    body: 'Inviato dal demo di notifica.'
+  warning:
+    label: 'Avviso inviato dal demo'
+    title: 'Qualcosa da controllare'
+    body: 'Inviato dal demo di notifica.'
+  danger:
+    label: 'Pericolo inviato dal demo'
+    title: 'Qualcosa è andato storto'
+    body: 'Inviato dal demo di notifica.'
+  reminder:
+    label: 'Promemoria demo'
+    title: 'Un promemoria'
+    body: "Non riceverai un altro entro un'ora."
+  team_joined:
+    label: 'Aggiunto a un team'
+    title: 'Sei entrato in %team%'
+    body: 'Accesso: %grants%.'
+  team_grants_changed:
+    label: 'Accesso cambiato in un team'
+    title: 'Il tuo accesso a %team% è cambiato'
+    body: 'Accesso: %grants%.'
+  team_left:
+    label: 'Rimosso da un team'
+    title: 'Sei uscito da %team%'
+    body: 'Non hai più accesso ad esso.'
+  team_member_joined:
+    label: 'Qualcuno è entrato in un team che amministro'
+    title: '%member% è entrato in %team%'
+    body: 'Accesso: %grants%.'
+
+pt_BR:
+  demo:
+    group:
+      try: Demonstração
+      teams: Equipes
+  info:
+    label: 'Informação enviada da demonstração'
+    title: 'Uma informação'
+    body: 'Enviada da demonstração de notificação.'
+  success:
+    label: 'Sucesso enviado da demonstração'
+    title: 'Algo deu certo'
+    body: 'Enviado da demonstração de notificação.'
+  warning:
+    label: 'Aviso enviado da demonstração'
+    title: 'Algo a ser observado'
+    body: 'Enviado da demonstração de notificação.'
+  danger:
+    label: 'Perigo enviado da demonstração'
+    title: 'Algo deu errado'
+    body: 'Enviado da demonstração de notificação.'
+  reminder:
+    label: 'Lembrete da demonstração'
+    title: 'Um lembrete'
+    body: 'Você não receberá outro dentro de uma hora.'
+  team_joined:
+    label: 'Adicionado a uma equipe'
+    title: 'Você entrou em %team%'
+    body: 'Acesso: %grants%.'
+  team_grants_changed:
+    label: 'Acesso alterado em uma equipe'
+    title: 'Seu acesso a %team% mudou'
+    body: 'Acesso: %grants%.'
+  team_left:
+    label: 'Removido de uma equipe'
+    title: 'Você saiu de %team%'
+    body: 'Você não tem mais acesso a isso.'
+  team_member_joined:
+    label: 'Alguém entrou em uma equipe que administro'
+    title: '%member% entrou em %team%'
+    body: 'Acesso: %grants%.'
+
+tr:
+  demo:
+    group:
+      try: Demo
+      teams: Takımlar
+  info:
+    label: "Demo'dan gönderilen bilgi"
+    title: 'Bir bilgi'
+    body: "Bildirim demo'sundan gönderildi."
+  success:
+    label: "Demo'dan başarıyla gönderildi"
+    title: 'Bir şey iyi gitti'
+    body: "Bildirim demo'sundan gönderildi."
+  warning:
+    label: "Demo'dan uyarı gönderildi"
+    title: 'Dikkat edilmesi gereken bir şey'
+    body: "Bildirim demo'sundan gönderildi."
+  danger:
+    label: "Demo'dan tehlike gönderildi"
+    title: 'Bir şey ters gitti'
+    body: "Bildirim demo'sundan gönderildi."
+  reminder:
+    label: 'Demo hatırlatıcısı'
+    title: 'Bir hatırlatma'
+    body: 'Bir saat içinde bir tane daha almayacaksınız.'
+  team_joined:
+    label: 'Bir takıma eklendi'
+    title: "%team%'ya katıldınız"
+    body: 'Erişim: %grants%.'
+  team_grants_changed:
+    label: 'Bir takımda erişim değişti'
+    title: '%team% için erişiminiz değişti'
+    body: 'Erişim: %grants%.'
+  team_left:
+    label: 'Bir takımdan çıkarıldı'
+    title: "%team%'dan ayrıldınız"
+    body: 'Artık buna erişiminiz yok.'
+  team_member_joined:
+    label: 'Yönetimimdeki bir takıma biri katıldı'
+    title: "%member% %team%'ye katıldı"
+    body: 'Erişim: %grants%.'
+
+vi:
+  demo:
+    group:
+      try: Demo
+      teams: Nhóm
+  info:
+    label: 'Thông tin được gửi từ bản demo'
+    title: 'Một thông tin'
+    body: 'Được gửi từ bản thông báo demo.'
+  success:
+    label: 'Thành công được gửi từ bản demo'
+    title: 'Một điều gì đó diễn ra tốt đẹp'
+    body: 'Được gửi từ bản thông báo demo.'
+  warning:
+    label: 'Cảnh báo được gửi từ bản demo'
+    title: 'Một điều gì đó cần chú ý'
+    body: 'Được gửi từ bản thông báo demo.'
+  danger:
+    label: 'Nguy hiểm được gửi từ bản demo'
+    title: 'Một điều gì đó không ổn'
+    body: 'Được gửi từ bản thông báo demo.'
+  reminder:
+    label: 'Nhắc nhở demo'
+    title: 'Một nhắc nhở'
+    body: 'Bạn sẽ không nhận được cái khác trong vòng một giờ.'
+  team_joined:
+    label: 'Đã thêm vào một nhóm'
+    title: 'Bạn đã tham gia %team%'
+    body: 'Quyền truy cập: %grants%.'
+  team_grants_changed:
+    label: 'Quyền truy cập đã thay đổi trong một nhóm'
+    title: 'Quyền truy cập của bạn đến %team% đã thay đổi'
+    body: 'Quyền truy cập: %grants%.'
+  team_left:
+    label: 'Đã rời khỏi một nhóm'
+    title: 'Bạn đã rời %team%'
+    body: 'Bạn không còn quyền truy cập vào nó.'
+  team_member_joined:
+    label: 'Có người tham gia một nhóm tôi quản lý'
+    title: '%member% đã tham gia %team%'
+    body: 'Quyền truy cập: %grants%.'
+
+id:
+  demo:
+    group:
+      try: Demo
+      teams: Tim
+  info:
+    label: 'Informasi yang dikirim dari demo'
+    title: 'Sebuah informasi'
+    body: 'Dikirim dari demo notifikasi.'
+  success:
+    label: 'Sukses dikirim dari demo'
+    title: 'Sesuatu berjalan dengan baik'
+    body: 'Dikirim dari demo notifikasi.'
+  warning:
+    label: 'Peringatan dikirim dari demo'
+    title: 'Sesuatu yang perlu diperhatikan'
+    body: 'Dikirim dari demo notifikasi.'
+  danger:
+    label: 'Bahaya dikirim dari demo'
+    title: 'Sesuatu tidak berjalan dengan baik'
+    body: 'Dikirim dari demo notifikasi.'
+  reminder:
+    label: 'Pengingat demo'
+    title: 'Sebuah pengingat'
+    body: 'Anda tidak akan mendapatkan yang lain dalam satu jam.'
+  team_joined:
+    label: 'Ditambahkan ke tim'
+    title: 'Anda bergabung dengan %team%'
+    body: 'Akses: %grants%.'
+  team_grants_changed:
+    label: 'Akses berubah dalam tim'
+    title: 'Akses Anda ke %team% berubah'
+    body: 'Akses: %grants%.'
+  team_left:
+    label: 'Dikeluarkan dari tim'
+    title: 'Anda keluar dari %team%'
+    body: 'Anda tidak lagi memiliki akses ke sana.'
+  team_member_joined:
+    label: 'Seseorang bergabung dengan tim yang saya kelola'
+    title: '%member% bergabung dengan %team%'
+    body: 'Akses: %grants%.'
+
+nl:
+  demo:
+    group:
+      try: Demo
+      teams: Teams
+  info:
+    label: 'Informatie verzonden vanuit de demo'
+    title: 'Een informatie'
+    body: 'Verzonden vanuit de notificatiedemo.'
+  success:
+    label: 'Succes verzonden vanuit de demo'
+    title: 'Iets ging goed'
+    body: 'Verzonden vanuit de notificatiedemo.'
+  warning:
+    label: 'Waarschuwing verzonden vanuit de demo'
+    title: 'Iets om naar te kijken'
+    body: 'Verzonden vanuit de notificatiedemo.'
+  danger:
+    label: 'Gevaren verzonden vanuit de demo'
+    title: 'Iets ging fout'
+    body: 'Verzonden vanuit de notificatiedemo.'
+  reminder:
+    label: 'Demo herinnering'
+    title: 'Een herinnering'
+    body: 'Je krijgt er binnen een uur geen andere meer.'
+  team_joined:
+    label: 'Toegevoegd aan een team'
+    title: 'Je bent lid geworden van %team%'
+    body: 'Toegang: %grants%.'
+  team_grants_changed:
+    label: 'Toegang veranderd in een team'
+    title: 'Je toegang tot %team% is veranderd'
+    body: 'Toegang: %grants%.'
+  team_left:
+    label: 'Verwijderd uit een team'
+    title: 'Je hebt %team% verlaten'
+    body: 'Je hebt er geen toegang meer toe.'
+  team_member_joined:
+    label: 'Iemand is lid geworden van een team dat ik beheer'
+    title: '%member% is lid geworden van %team%'
+    body: 'Toegang: %grants%.'

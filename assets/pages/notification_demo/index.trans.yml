@@ -75,3 +75,523 @@ zh:
     title: 团队通知他们的成员
     intro: '将某人添加到用户演示的团队中，改变他们的访问权限或将其移除会通知他们 — 并且在到达时通知其他管理员。'
     open: 打开团队
+
+ar:
+  page_title: الإشعارات
+  page_icon: 'ph:bold/bell'
+  intro: 'إعلام الناس بما يجب أن يعرفوه الآن. كل إشعار يصل إلى صندوق الوارد؛ البريد هو قناة يمكن لكل شخص إيقافها، حسب الفئة. في التطوير، تصل الرسائل إلى صندوق البريد.'
+  inbox: 'صندوق الوارد'
+  preferences: التفضيلات
+  sign_in: 'قم بتسجيل الدخول باستخدام حساب اختبار من عرض المستخدم لتلقي الإشعارات.'
+  sign_in_open: 'حسابات الاختبار'
+  sent: 'تم الإرسال. إنه في صندوق الوارد لديك، وفي صندوق البريد ما لم تقم بإيقاف البريد.'
+  sent_none: 'لم يتم إرسال أي شيء — تم تذكيرك منذ أقل من ساعة.'
+  levels:
+    title: 'أرسل لنفسك واحدة'
+    intro: 'فئة واحدة لكل مستوى، تُرسل إليك وحدك.'
+    info: معلومات
+    success: نجاح
+    warning: تحذير
+    danger: خطر
+  reminder:
+    title: 'تذكير، مرة كل ساعة'
+    intro: 'يتم الإرسال باستخدام notifyOnce() — الضغط مرة أخرى خلال الساعة لا يرسل شيئًا، كما يصل التذكير اليومي إلى كل شخص مرة واحدة في كل نافذة.'
+    send: ذكرني
+  teams:
+    title: 'الفرق تخبر أعضائها'
+    intro: 'إضافة شخص إلى فريق عرض المستخدم، تغيير وصوله أو إزالته يُعلمهم — وعند الوصول، يُعلم باقي المسؤولين.'
+    open: 'فتح الفرق'
+
+hi:
+  page_title: सूचनाएँ
+  page_icon: 'ph:bold/bell'
+  intro: 'लोगों को जो उन्हें अभी जानना चाहिए, वह बताना। हर सूचना इनबॉक्स में आती है; मेल एक चैनल है जिसे प्रत्येक श्रेणी के अनुसार बंद किया जा सकता है। विकास में मेल मेलबॉक्स में आते हैं।'
+  inbox: इनबॉक्स
+  preferences: प्राथमिकताएँ
+  sign_in: 'सूचनाएँ प्राप्त करने के लिए उपयोगकर्ता डेमो के परीक्षण खाते से साइन इन करें।'
+  sign_in_open: 'परीक्षण खाते'
+  sent: 'भेजा गया। यह आपके इनबॉक्स में है, और मेलबॉक्स में है जब तक आपने मेल बंद नहीं किया।'
+  sent_none: 'कुछ नहीं भेजा गया — आपको एक घंटे से कम समय पहले याद दिलाया गया था।'
+  levels:
+    title: 'अपने लिए एक भेजें'
+    intro: 'प्रति स्तर एक श्रेणी, केवल आपके लिए भेजी गई।'
+    info: सूचना
+    success: सफलता
+    warning: चेतावनी
+    danger: खतरा
+  reminder:
+    title: 'एक अनुस्मारक, हर घंटे'
+    intro: 'notifyOnce() के साथ भेजा गया — एक घंटे के भीतर फिर से दबाने पर कुछ नहीं भेजा जाता, जैसे दैनिक अनुस्मारक हर व्यक्ति तक एक बार पहुँचता है।'
+    send: 'मुझे याद दिलाएँ'
+  teams:
+    title: 'टीमें अपने सदस्यों को बताती हैं'
+    intro: 'उपयोगकर्ता डेमो की टीम में किसी को जोड़ना, उनकी पहुँच बदलना या उन्हें हटाना उन्हें सूचित करता है — और, आगमन पर, अन्य प्रशासकों को।'
+    open: 'टीम खोलें'
+
+he:
+  page_title: התראות
+  page_icon: 'ph:bold/bell'
+  intro: 'ליידע אנשים מה הם חייבים לדעת עכשיו. כל התראה מגיעה לתיבת הדואר; הדואר הוא ערוץ שכל אחד יכול לכבות, לפי קטגוריה. במהלך הפיתוח, המיילים מגיעים לתיבת הדואר.'
+  inbox: 'תיבת דואר'
+  preferences: העדפות
+  sign_in: 'התחבר עם חשבון בדיקה של הדמו כדי לקבל התראות.'
+  sign_in_open: 'חשבונות בדיקה'
+  sent: 'נשלח. זה נמצא בתיבת הדואר שלך, ובתיבת הדואר אלא אם כיבית את המייל.'
+  sent_none: 'לא נשלח כלום — קיבלת תזכורת לפני פחות משעה.'
+  levels:
+    title: 'שלח לעצמך אחד'
+    intro: 'קטגוריה אחת לכל רמה, נשלחת אליך בלבד.'
+    info: מידע
+    success: הצלחה
+    warning: אזהרה
+    danger: סכנה
+  reminder:
+    title: 'תזכורת, פעם בשעה'
+    intro: 'נשלח עם notifyOnce() — לחיצה שוב בתוך השעה לא שולחת כלום, כמו תזכורת יומית שמגיעה לכל אדם פעם בכל חלון.'
+    send: 'תזכיר לי'
+  teams:
+    title: 'הצוותים מודיעים לחבריהם'
+    intro: 'הוספת מישהו לצוות של הדמו, שינוי הגישה שלו או הסרתו מיידעת אותם — ובכניסתם, את שאר המנהלים.'
+    open: 'פתח את הצוותים'
+
+fa:
+  page_title: اعلان‌ها
+  page_icon: 'ph:bold/bell'
+  intro: 'اطلاع‌رسانی به افراد درباره مواردی که اکنون باید بدانند. هر اعلان در صندوق ورودی قرار می‌گیرد؛ ایمیل یک کانال است که هر شخص می‌تواند آن را بر اساس دسته‌بندی خاموش کند. در حال توسعه، ایمیل‌ها در صندوق پستی قرار می‌گیرند.'
+  inbox: 'صندوق ورودی'
+  preferences: تنظیمات
+  sign_in: 'با یک حساب آزمایشی کاربر دمو وارد شوید تا اعلان‌ها را دریافت کنید.'
+  sign_in_open: 'حساب‌های آزمایشی'
+  sent: 'ارسال شد. در صندوق ورودی شما قرار دارد و در صندوق پستی مگر اینکه ایمیل را خاموش کرده باشید.'
+  sent_none: 'هیچ چیزی ارسال نشد — کمتر از یک ساعت پیش به شما یادآوری شد.'
+  levels:
+    title: 'یک یادآوری برای خودتان ارسال کنید'
+    intro: 'یک دسته برای هر سطح، فقط برای شما ارسال می‌شود.'
+    info: اطلاعات
+    success: موفقیت
+    warning: هشدار
+    danger: خطر
+  reminder:
+    title: 'یک یادآوری، هر ساعت یک بار'
+    intro: 'با notifyOnce() ارسال می‌شود — فشار دادن دوباره در طول یک ساعت هیچ چیزی ارسال نمی‌کند، همان‌طور که یک یادآوری روزانه به هر نفر یک بار در هر پنجره می‌رسد.'
+    send: 'به من یادآوری کن'
+  teams:
+    title: 'تیم‌ها به اعضای خود اطلاع‌رسانی می‌کنند'
+    intro: 'اضافه کردن شخصی به یک تیم از کاربر دمو، تغییر دسترسی یا حذف آنها به آنها اطلاع می‌دهد — و، با ورود، سایر مدیران را نیز مطلع می‌کند.'
+    open: 'تیم‌ها را باز کنید'
+
+ur:
+  page_title: نوٹیفکیشنز
+  page_icon: 'ph:bold/bell'
+  intro: 'لوگوں کو وہ معلومات بتانا جو انہیں فوری طور پر جاننا ضروری ہے۔ ہر نوٹیفکیشن ان باکس میں آتا ہے؛ میل ایک چینل ہے جسے ہر کوئی زمرے کے لحاظ سے بند کر سکتا ہے۔ ترقی کے دوران میل باکس میں آتی ہیں۔'
+  inbox: 'ان باکس'
+  preferences: ترجیحات
+  sign_in: 'نوٹیفکیشنز حاصل کرنے کے لیے ایک ٹیسٹ اکاؤنٹ کے ساتھ سائن ان کریں۔'
+  sign_in_open: 'ٹیسٹ اکاؤنٹس'
+  sent: 'بھیجا گیا۔ یہ آپ کے ان باکس میں ہے، اور میل باکس میں ہے جب تک کہ آپ نے میل بند نہ کی ہو۔'
+  sent_none: 'کچھ نہیں بھیجا گیا — آپ کو ایک گھنٹہ پہلے یاد دلائی گئی تھی۔'
+  levels:
+    title: 'اپنے آپ کو ایک بھیجیں'
+    intro: 'ہر سطح کے لیے ایک زمرہ، صرف آپ کے لیے بھیجا گیا۔'
+    info: معلومات
+    success: کامیابی
+    warning: خبردار
+    danger: خطرہ
+  reminder:
+    title: 'یاد دہانی، ہر گھنٹے میں ایک بار'
+    intro: 'notifyOnce() کے ساتھ بھیجی گئی — ایک گھنٹے کے اندر دوبارہ دبانے سے کچھ نہیں بھیجا جاتا، جیسے روزانہ کی یاد دہانی ہر شخص کو ایک بار ہر ونڈو میں پہنچتی ہے۔'
+    send: 'یاد دہانی کرائیں'
+  teams:
+    title: 'ٹیمیں اپنے ارکان کو بتاتی ہیں'
+    intro: 'صارف کے ڈیمو کی ٹیم میں کسی کو شامل کرنا، ان کی رسائی کو تبدیل کرنا یا انہیں ہٹانا انہیں مطلع کرتا ہے — اور، آمد پر، دوسرے منتظمین کو بھی۔'
+    open: 'ٹیمیں کھولیں'
+
+ja:
+  page_title: 通知
+  page_icon: 'ph:bold/bell'
+  intro: 今知っておくべきことを人々に伝えます。すべての通知は受信トレイに届きます。メールは各カテゴリごとにオフにできるチャンネルです。開発中はメールがメールボックスに届きます。
+  inbox: 受信トレイ
+  preferences: 設定
+  sign_in: 通知を受け取るためにユーザーデモのテストアカウントでサインインしてください。
+  sign_in_open: テストアカウント
+  sent: 送信済み。受信トレイに入っており、メールをオフにしない限りメールボックスにもあります。
+  sent_none: '何も送信されていません — あなたは1時間未満前にリマインドされました。'
+  levels:
+    title: 自分に1つ送信する
+    intro: レベルごとに1つのカテゴリ、あなたのみに送信されます。
+    info: 情報
+    success: 成功
+    warning: 警告
+    danger: 危険
+  reminder:
+    title: 1時間ごとのリマインダー
+    intro: 'notifyOnce()で送信されます — 1時間以内に再度押しても何も送信されず、毎日のリマインダーが各人に1回届くようにします。'
+    send: リマインドして
+  teams:
+    title: チームはメンバーに通知します
+    intro: 'ユーザーデモのチームに誰かを追加したり、アクセスを変更したり、削除したりすると、通知が届きます — 到着時に他の管理者にも通知されます。'
+    open: チームを開く
+
+ko:
+  page_title: 알림
+  page_icon: 'ph:bold/bell'
+  intro: '사람들에게 지금 알아야 할 사항을 알립니다. 모든 알림은 수신함으로 들어오며, 메일은 각 카테고리별로 끌 수 있는 채널입니다. 개발 중에는 메일이 우편함에 도착합니다.'
+  inbox: 수신함
+  preferences: '환경 설정'
+  sign_in: '알림을 받기 위해 사용자 데모의 테스트 계정으로 로그인하세요.'
+  sign_in_open: '테스트 계정'
+  sent: '전송됨. 수신함과 우편함에 있으며, 메일을 끄지 않았다면 그대로 있습니다.'
+  sent_none: '전송된 내용이 없습니다 — 당신은 한 시간 이내에 리마인드되었습니다.'
+  levels:
+    title: '자신에게 하나 전송하기'
+    intro: '레벨당 하나의 카테고리, 오직 당신에게만 전송됩니다.'
+    info: 정보
+    success: 성공
+    warning: 경고
+    danger: 위험
+  reminder:
+    title: '1시간마다 알림'
+    intro: 'notifyOnce()로 전송됨 — 1시간 이내에 다시 누르면 아무것도 전송되지 않으며, 일일 리마인더가 각 사람에게 한 번만 도달하는 방식입니다.'
+    send: '리마인드 해주세요'
+  teams:
+    title: '팀이 그들의 구성원에게 알립니다'
+    intro: '사용자 데모의 팀에 누군가를 추가하거나, 접근 권한을 변경하거나, 제거하면 그들에게 알림이 전송됩니다 — 그리고, 도착 시 다른 관리자에게도 알림이 갑니다.'
+    open: '팀 열기'
+
+bn:
+  page_title: নোটিফিকেশন
+  page_icon: 'ph:bold/bell'
+  intro: 'যাদের জানানো উচিত, তাদের জানানো। প্রতিটি নোটিফিকেশন ইনবক্সে এসে পৌঁছে; মেইল হল একটি চ্যানেল যা প্রতিটি শ্রেণীর জন্য বন্ধ করা যেতে পারে। ডেভেলপমেন্টে মেইলগুলি মেইলবক্সে চলে আসে।'
+  inbox: ইনবক্স
+  preferences: পছন্দসমূহ
+  sign_in: 'নোটিফিকেশন পাওয়ার জন্য ব্যবহারকারী ডেমোর পরীক্ষামূলক অ্যাকাউন্ট দিয়ে সাইন ইন করুন।'
+  sign_in_open: 'পরীক্ষামূলক অ্যাকাউন্ট'
+  sent: 'প্রেরিত। এটি আপনার ইনবক্সে আছে, এবং মেইলবক্সে আছে যতক্ষণ না আপনি মেইল বন্ধ করেন।'
+  sent_none: 'কিছুই প্রেরিত হয়নি — আপনাকে এক ঘণ্টার কম সময়ে মনে করিয়ে দেওয়া হয়েছিল।'
+  levels:
+    title: 'নিজেকে একটি পাঠান'
+    intro: 'প্রতি স্তরে একটি শ্রেণী, শুধুমাত্র আপনাকে পাঠানো।'
+    info: তথ্য
+    success: সফলতা
+    warning: সতর্কতা
+    danger: বিপদ
+  reminder:
+    title: 'এক ঘণ্টায় একটি মনে করিয়ে দেওয়া'
+    intro: 'notifyOnce() দিয়ে পাঠানো — এক ঘণ্টার মধ্যে আবার চাপলে কিছুই পাঠানো হবে না, যেমন একটি দৈনিক মনে করিয়ে দেওয়া প্রতিটি ব্যক্তির কাছে একটি উইন্ডোতে একবার পৌঁছে।'
+    send: 'মনে করিয়ে দিন'
+  teams:
+    title: 'টিমগুলো তাদের সদস্যদের জানায়'
+    intro: 'ব্যবহারকারী ডেমোর একটি টিমে কাউকে যোগ করা, তাদের অ্যাক্সেস পরিবর্তন করা বা তাদের অপসারণ করা তাদেরকে জানায় — এবং, আগমনের সময়ে, অন্যান্য প্রশাসকদেরও।'
+    open: 'টিমগুলো খুলুন'
+
+th:
+  page_title: การแจ้งเตือน
+  page_icon: 'ph:bold/bell'
+  intro: 'บอกผู้คนเกี่ยวกับสิ่งที่พวกเขาต้องรู้ตอนนี้ ทุกการแจ้งเตือนจะถูกส่งไปยังกล่องจดหมาย; อีเมลเป็นช่องทางที่แต่ละคนสามารถปิดได้ตามหมวดหมู่ ในการพัฒนาการ อีเมลจะไปถึงกล่องจดหมาย'
+  inbox: กล่องจดหมาย
+  preferences: การตั้งค่า
+  sign_in: ลงชื่อเข้าใช้ด้วยบัญชีทดสอบของผู้ใช้สาธิตเพื่อรับการแจ้งเตือน
+  sign_in_open: บัญชีทดสอบ
+  sent: 'ส่งแล้ว มันอยู่ในกล่องจดหมายของคุณ และในกล่องจดหมายเว้นแต่คุณจะปิดอีเมล'
+  sent_none: 'ไม่มีการส่ง — คุณได้รับการเตือนเมื่อไม่นานมานี้'
+  levels:
+    title: ส่งให้ตัวเองสักหนึ่ง
+    intro: 'หนึ่งหมวดหมู่ต่อระดับ ส่งให้คุณคนเดียว'
+    info: ข้อมูล
+    success: สำเร็จ
+    warning: คำเตือน
+    danger: อันตราย
+  reminder:
+    title: 'การเตือนความจำ ทุกชั่วโมงหนึ่งครั้ง'
+    intro: 'ส่งด้วย notifyOnce() — การกดอีกครั้งภายในชั่วโมงจะไม่ส่งอะไร วิธีการเตือนความจำประจำวันจะถึงแต่ละคนเพียงครั้งเดียวในแต่ละช่วงเวลา'
+    send: เตือนฉัน
+  teams:
+    title: ทีมจะแจ้งสมาชิกของพวกเขา
+    intro: 'การเพิ่มคนเข้าไปในทีมของผู้ใช้สาธิต การเปลี่ยนแปลงการเข้าถึงหรือการลบพวกเขาจะแจ้งให้พวกเขาทราบ — และเมื่อมาถึง ผู้ดูแลระบบคนอื่นๆ'
+    open: เปิดทีม
+
+de:
+  page_title: Benachrichtigungen
+  page_icon: 'ph:bold/bell'
+  intro: 'Den Leuten sagen, was sie jetzt wissen müssen. Jede Benachrichtigung landet im Posteingang; die E-Mail ist ein Kanal, den jeder nach Kategorie deaktivieren kann. In der Entwicklung landen die E-Mails im Postfach.'
+  inbox: Posteingang
+  preferences: Einstellungen
+  sign_in: 'Melden Sie sich mit einem Testkonto des Benutzerdemos an, um Benachrichtigungen zu erhalten.'
+  sign_in_open: Testkonten
+  sent: 'Gesendet. Es befindet sich in Ihrem Posteingang und im Postfach, es sei denn, Sie haben die E-Mail deaktiviert.'
+  sent_none: 'Nichts gesendet — Sie wurden vor weniger als einer Stunde erinnert.'
+  levels:
+    title: 'Senden Sie sich eine'
+    intro: 'Eine Kategorie pro Level, nur an Sie gesendet.'
+    info: Information
+    success: Erfolg
+    warning: Warnung
+    danger: Gefahr
+  reminder:
+    title: 'Eine Erinnerung, einmal pro Stunde'
+    intro: 'Gesendet mit notifyOnce() — ein weiteres Drücken innerhalb der Stunde sendet nichts, so wie eine tägliche Erinnerung jede Person einmal pro Fenster erreicht.'
+    send: 'Erinnere mich'
+  teams:
+    title: 'Die Teams informieren ihre Mitglieder'
+    intro: 'Jemanden zu einem Team des Benutzerdemos hinzufügen, dessen Zugriffsrechte ändern oder ihn entfernen, benachrichtigt ihn — und, bei Ankunft, die anderen Administratoren.'
+    open: 'Teams öffnen'
+
+fi:
+  page_title: Ilmoitukset
+  page_icon: 'ph:bold/bell'
+  intro: 'Kerro ihmisille, mitä heidän on nyt tiedettävä. Jokainen ilmoitus päätyy saapuneisiin; sähköposti on kanava, jonka voi kytkeä pois päältä kunkin kategorian osalta. Kehityksessä sähköpostit päätyvät postilaatikkoon.'
+  inbox: Saapuneet
+  preferences: Asetukset
+  sign_in: 'Kirjaudu sisään käyttäjädemon testitilillä saadaksesi ilmoituksia.'
+  sign_in_open: Testitilit
+  sent: 'Lähetetty. Se on saapuneissa, ja postilaatikossa, ellei olet kytkenyt sähköpostia pois päältä.'
+  sent_none: 'Ei lähetetty — sinua muistutettiin vähemmän kuin tunti sitten.'
+  levels:
+    title: 'Lähetä itsellesi yksi'
+    intro: 'Yksi kategoria per taso, lähetetään vain sinulle.'
+    info: Tietoa
+    success: Onnistuminen
+    warning: Varoitus
+    danger: Vaara
+  reminder:
+    title: 'Muistutus, kerran tunnissa'
+    intro: 'Lähetetään notifyOnce()-kutsulla — painaminen uudelleen tunnin sisällä ei lähetä mitään, kuten päivittäinen muistutus tavoittaa jokaisen kerran per ikkuna.'
+    send: 'Muistuta minua'
+  teams:
+    title: 'Tiimit kertovat jäsenilleen'
+    intro: 'Jonkun lisääminen käyttäjädemon tiimiin, pääsyn muuttaminen tai poistaminen ilmoittaa heille — ja, saapuessaan, muille ylläpitäjille.'
+    open: 'Avaa tiimit'
+
+ru:
+  page_title: Уведомления
+  page_icon: 'ph:bold/bell'
+  intro: 'Сообщаем людям, что им нужно знать прямо сейчас. Каждое уведомление попадает во входящие; почта — это канал, который каждый может отключить по категориям. В процессе разработки письма попадают в почтовый ящик.'
+  inbox: Входящие
+  preferences: Настройки
+  sign_in: 'Войдите, используя тестовую учетную запись демонстрационного пользователя, чтобы получать уведомления.'
+  sign_in_open: 'Тестовые учетные записи'
+  sent: 'Отправлено. Оно в ваших входящих и в почтовом ящике, если вы не отключили почту.'
+  sent_none: 'Ничего не отправлено — вам напоминали менее часа назад.'
+  levels:
+    title: 'Отправьте себе одно'
+    intro: 'Одна категория на уровень, отправленная только вам.'
+    info: Информация
+    success: Успех
+    warning: Предупреждение
+    danger: Опасность
+  reminder:
+    title: 'Напоминание раз в час'
+    intro: 'Отправлено с notifyOnce() — повторное нажатие в течение часа не отправляет ничего, как ежедневное напоминание охватывает каждого человека раз за окно.'
+    send: 'Напомнить мне'
+  teams:
+    title: 'Команды сообщают своим членам'
+    intro: 'Добавление кого-то в команду демонстрационного пользователя, изменение их доступа или удаление уведомляет их — а также, по прибытии, других администраторов.'
+    open: 'Открыть команды'
+
+pl:
+  page_title: Powiadomienia
+  page_icon: 'ph:bold/bell'
+  intro: 'Informowanie ludzi o tym, co muszą teraz wiedzieć. Każde powiadomienie trafia do skrzynki odbiorczej; wiadomości to kanał, który każdy może wyłączyć według kategorii. W trakcie rozwoju wiadomości trafiają do skrzynki.'
+  inbox: 'Skrzynka odbiorcza'
+  preferences: Ustawienia
+  sign_in: 'Zaloguj się za pomocą konta testowego użytkownika demo, aby otrzymywać powiadomienia.'
+  sign_in_open: 'Konta testowe'
+  sent: 'Wysłano. Jest w twojej skrzynce odbiorczej i w skrzynce, chyba że wyłączyłeś wiadomości.'
+  sent_none: 'Nic nie wysłano — przypomniano ci mniej niż godzinę temu.'
+  levels:
+    title: 'Wyślij sobie jedno'
+    intro: 'Jedna kategoria na poziom, wysyłana tylko do ciebie.'
+    info: Informacja
+    success: Sukces
+    warning: Ostrzeżenie
+    danger: Niebezpieczeństwo
+  reminder:
+    title: 'Przypomnienie, raz na godzinę'
+    intro: 'Wysłane z notifyOnce() — ponowne naciśnięcie w ciągu godziny nie wysyła nic, tak jak codzienne przypomnienie dotrze do każdej osoby raz na okno czasowe.'
+    send: 'Przypomnij mi'
+  teams:
+    title: 'Zespoły informują swoich członków'
+    intro: 'Dodanie kogoś do zespołu użytkownika demo, zmiana dostępu lub usunięcie go powiadamia ich — a po przybyciu, innych administratorów.'
+    open: 'Otwórz zespoły'
+
+es:
+  page_title: Notificaciones
+  page_icon: 'ph:bold/bell'
+  intro: 'Informar a las personas lo que deben saber ahora. Cada notificación llega a la bandeja de entrada; el correo es un canal que cada uno puede desactivar, por categoría. En desarrollo, los correos llegan a la bandeja de entrada.'
+  inbox: 'Bandeja de entrada'
+  preferences: Preferencias
+  sign_in: 'Iniciar sesión con una cuenta de prueba de la demostración de usuario para recibir notificaciones.'
+  sign_in_open: 'Cuentas de prueba'
+  sent: 'Enviado. Está en tu bandeja de entrada y en la bandeja de correo a menos que hayas desactivado el correo.'
+  sent_none: 'Nada enviado — te recordaron hace menos de una hora.'
+  levels:
+    title: 'Envíate uno'
+    intro: 'Una categoría por nivel, enviado solo a ti.'
+    info: Información
+    success: Éxito
+    warning: Advertencia
+    danger: Peligro
+  reminder:
+    title: 'Un recordatorio, una vez por hora'
+    intro: 'Enviado con notifyOnce() — presionar nuevamente dentro de la hora no envía nada, de la manera en que un recordatorio diario llega a cada persona una vez por ventana.'
+    send: Recuérdame
+  teams:
+    title: 'Los equipos informan a sus miembros'
+    intro: 'Agregar a alguien a un equipo de la demostración de usuario, cambiar su acceso o eliminarlos les notifica — y, a la llegada, a los otros administradores.'
+    open: 'Abrir los equipos'
+
+it:
+  page_title: Notifiche
+  page_icon: 'ph:bold/bell'
+  intro: "Informare le persone su ciò che devono sapere ora. Ogni notifica arriva nella casella di posta; l'email è un canale che ognuno può disattivare, per categoria. In fase di sviluppo, le email arrivano nella casella di posta."
+  inbox: 'Posta in arrivo'
+  preferences: Preferenze
+  sign_in: 'Accedi con un account di prova della demo utente per ricevere notifiche.'
+  sign_in_open: 'Account di prova'
+  sent: "Inviato. È nella tua posta in arrivo e nella casella di posta a meno che tu non abbia disattivato l'email."
+  sent_none: "Niente inviato — ti è stato ricordato meno di un'ora fa."
+  levels:
+    title: 'Invia a te stesso uno'
+    intro: 'Una categoria per livello, inviato solo a te.'
+    info: Informazione
+    success: Successo
+    warning: Avviso
+    danger: Pericolo
+  reminder:
+    title: "Un promemoria, una volta all'ora"
+    intro: "Inviato con notifyOnce() — premere di nuovo entro un'ora non invia nulla, come un promemoria giornaliero raggiunge ciascuna persona una volta per finestra."
+    send: Ricordamelo
+  teams:
+    title: 'I team informano i loro membri'
+    intro: "Aggiungere qualcuno a un team della demo utente, modificare il loro accesso o rimuoverli li notifica — e, all'arrivo, gli altri amministratori."
+    open: 'Apri i team'
+
+pt_BR:
+  page_title: Notificações
+  page_icon: 'ph:bold/bell'
+  intro: 'Informando as pessoas sobre o que elas precisam saber agora. Cada notificação vai para a caixa de entrada; o e-mail é um canal que cada um pode desativar, por categoria. Em desenvolvimento, os e-mails vão para a caixa de entrada.'
+  inbox: 'Caixa de entrada'
+  preferences: Preferências
+  sign_in: 'Faça login com uma conta de teste da demonstração do usuário para receber notificações.'
+  sign_in_open: 'Contas de teste'
+  sent: 'Enviado. Está na sua caixa de entrada e na caixa de correio, a menos que você tenha desativado o e-mail.'
+  sent_none: 'Nada enviado — você foi lembrado há menos de uma hora.'
+  levels:
+    title: 'Envie um para você mesmo'
+    intro: 'Uma categoria por nível, enviado apenas para você.'
+    info: Informação
+    success: Sucesso
+    warning: Aviso
+    danger: Perigo
+  reminder:
+    title: 'Um lembrete, uma vez por hora'
+    intro: 'Enviado com notifyOnce() — pressionar novamente dentro da hora não envia nada, da mesma forma que um lembrete diário chega a cada pessoa uma vez por janela.'
+    send: Lembre-me
+  teams:
+    title: 'As equipes informam seus membros'
+    intro: 'Adicionar alguém a uma equipe da demonstração do usuário, alterar seu acesso ou removê-lo notifica-o — e, ao chegar, os outros administradores.'
+    open: 'Abrir as equipes'
+
+tr:
+  page_title: Bildirimler
+  page_icon: 'ph:bold/bell'
+  intro: 'İnsanlara şu anda bilmesi gerekenleri bildirmek. Her bildirim gelen kutusuna düşer; e-posta, her bir kategoride kapatılabilecek bir kanaldır. Geliştirme aşamasında e-postalar posta kutusuna ulaşır.'
+  inbox: 'Gelen Kutusu'
+  preferences: Ayarlar
+  sign_in: 'Bildirim almak için kullanıcı demosunun test hesabıyla giriş yapın.'
+  sign_in_open: 'Test hesapları'
+  sent: 'Gönderildi. Gelen kutunuzda ve e-posta kutusunda, e-postayı kapatmadıysanız.'
+  sent_none: 'Hiçbir şey gönderilmedi — size bir saatten kısa bir süre önce hatırlatıldı.'
+  levels:
+    title: 'Kendinize bir tane gönderin'
+    intro: 'Her seviye için bir kategori, yalnızca size gönderilir.'
+    info: Bilgilendirme
+    success: Başarı
+    warning: Uyarı
+    danger: Tehlike
+  reminder:
+    title: 'Saatte bir hatırlatma'
+    intro: 'notifyOnce() ile gönderildi — saat içinde tekrar basarsanız hiçbir şey gönderilmez, günlük hatırlatmanın her kişiye bir kez ulaşma şekli gibi.'
+    send: 'Beni hatırlat'
+  teams:
+    title: 'Takımlar üyelerine bilgi verir'
+    intro: 'Kullanıcı demosuna birini eklemek, erişimlerini değiştirmek veya kaldırmak onları — ve geldiğinde diğer yöneticileri bilgilendirir.'
+    open: 'Takımları aç'
+
+vi:
+  page_title: 'Thông báo'
+  page_icon: 'ph:bold/bell'
+  intro: 'Thông báo cho mọi người những điều họ cần biết ngay bây giờ. Mỗi thông báo đều đến hộp thư; email là một kênh mà mỗi người có thể tắt theo từng danh mục. Trong quá trình phát triển, email sẽ đến hộp thư.'
+  inbox: 'Hộp thư'
+  preferences: 'Tùy chọn'
+  sign_in: 'Đăng nhập bằng tài khoản thử nghiệm của bản demo người dùng để nhận thông báo.'
+  sign_in_open: 'Tài khoản thử nghiệm'
+  sent: 'Đã gửi. Nó nằm trong hộp thư của bạn, và trong hộp thư nếu bạn không tắt email.'
+  sent_none: 'Chưa gửi gì — bạn đã được nhắc nhở cách đây chưa đầy một giờ.'
+  levels:
+    title: 'Gửi cho chính mình một cái'
+    intro: 'Một danh mục cho mỗi cấp độ, gửi riêng cho bạn.'
+    info: 'Thông tin'
+    success: 'Thành công'
+    warning: 'Cảnh báo'
+    danger: 'Nguy hiểm'
+  reminder:
+    title: 'Một lời nhắc, mỗi giờ một lần'
+    intro: 'Gửi với notifyOnce() — nhấn lại trong vòng một giờ sẽ không gửi gì, giống như một lời nhắc hàng ngày đến mỗi người một lần trong khoảng thời gian.'
+    send: 'Nhắc tôi'
+  teams:
+    title: 'Các nhóm thông báo cho các thành viên của họ'
+    intro: 'Thêm ai đó vào một nhóm của bản demo người dùng, thay đổi quyền truy cập của họ hoặc gỡ bỏ họ sẽ gửi thông báo cho họ — và, khi đến, cho các quản trị viên khác.'
+    open: 'Mở các nhóm'
+
+id:
+  page_title: Notifikasi
+  page_icon: 'ph:bold/bell'
+  intro: 'Memberitahukan orang-orang apa yang harus mereka ketahui sekarang. Setiap notifikasi masuk ke kotak masuk; email adalah saluran yang bisa dimatikan oleh masing-masing orang, per kategori. Dalam pengembangan, email masuk ke kotak surat.'
+  inbox: 'Kotak Masuk'
+  preferences: Preferensi
+  sign_in: 'Masuk dengan akun uji dari demo pengguna untuk menerima notifikasi.'
+  sign_in_open: 'Akun uji'
+  sent: 'Terkirim. Ini ada di kotak masuk Anda, dan di kotak surat kecuali Anda mematikan email.'
+  sent_none: 'Tidak ada yang terkirim — Anda telah diingatkan kurang dari satu jam yang lalu.'
+  levels:
+    title: 'Kirim satu untuk diri sendiri'
+    intro: 'Satu kategori per level, dikirim hanya untuk Anda.'
+    info: Informasi
+    success: Sukses
+    warning: Peringatan
+    danger: Bahaya
+  reminder:
+    title: 'Pengingat, sekali setiap jam'
+    intro: 'Dikirim dengan notifyOnce() — menekan lagi dalam satu jam tidak mengirim apa pun, cara pengingat harian mencapai setiap orang sekali per jendela.'
+    send: 'Ingatkan saya'
+  teams:
+    title: 'Tim memberi tahu anggotanya'
+    intro: 'Menambahkan seseorang ke tim demo pengguna, mengubah akses mereka atau menghapus mereka memberi tahu mereka — dan, saat tiba, administrator lainnya.'
+    open: 'Buka tim'
+
+nl:
+  page_title: Meldingen
+  page_icon: 'ph:bold/bell'
+  intro: 'Mensen vertellen wat ze nu moeten weten. Elke melding komt in de inbox; de mail is een kanaal dat iedereen per categorie kan uitschakelen. Tijdens de ontwikkeling komen de mails in de mailbox.'
+  inbox: Inbox
+  preferences: Voorkeuren
+  sign_in: 'Log in met een testaccount van de gebruikersdemo om meldingen te ontvangen.'
+  sign_in_open: Testaccounts
+  sent: 'Verzonden. Het staat in je inbox en in de mailbox, tenzij je de mail hebt uitgeschakeld.'
+  sent_none: 'Niets verzonden — je werd minder dan een uur geleden herinnerd.'
+  levels:
+    title: 'Stuur jezelf er één'
+    intro: 'Één categorie per niveau, alleen naar jou verzonden.'
+    info: Informatie
+    success: Succes
+    warning: Waarschuwing
+    danger: Gevaaar
+  reminder:
+    title: 'Een herinnering, eens per uur'
+    intro: 'Verzonden met notifyOnce() — opnieuw drukken binnen het uur verzendt niets, zoals een dagelijkse herinnering elke persoon eenmaal per venster bereikt.'
+    send: 'Herinner mij'
+  teams:
+    title: 'De teams informeren hun leden'
+    intro: 'Iemand toevoegen aan een team van de gebruikersdemo, hun toegang wijzigen of ze verwijderen, geeft hen een melding — en, bij aankomst, de andere beheerders.'
+    open: 'Open de teams'
