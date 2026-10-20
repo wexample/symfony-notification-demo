@@ -710,35 +710,43 @@
     "common/notifications.fr.yml": {
         "danger.body": {
             "hash": "8096a0b41f56e13e9f81f05f317c8397",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "danger.label": {
             "hash": "364013219d6a9032d4456221eaf661c4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "danger.title": {
             "hash": "d32572c091dc15401ca54042c436331d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "demo.group.teams": {
             "hash": "bb5a789a810074535ff28c6df7e31927",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "demo.group.try": {
             "hash": "a48e24a494348726525020c599db78e4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "info.body": {
             "hash": "8096a0b41f56e13e9f81f05f317c8397",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "info.label": {
             "hash": "d44e1068bb8a79f7538cddc0bbc225be",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "info.title": {
             "hash": "0654f9e60c048607a9893731b743b758",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "reminder.body": {
             "hash": "1f58773c8b8a85cd75ba8c5d11083ae3",
@@ -746,47 +754,58 @@
         },
         "reminder.label": {
             "hash": "15d00cc161c38815b70f1ac06c2f954d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "reminder.title": {
             "hash": "28bd20d27876d512f13964e598e94ad0",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "success.body": {
             "hash": "8096a0b41f56e13e9f81f05f317c8397",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "success.label": {
             "hash": "643290c147a79a7bb7aa289b91a6401f",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "success.title": {
             "hash": "70ae06717ee9ea2cc8e9c6d7918cd2a7",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_grants_changed.body": {
             "hash": "a52ff77239142abc61ad1949645d406d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_grants_changed.label": {
             "hash": "5518a0987719ee4ce570fb1775771757",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_grants_changed.title": {
             "hash": "1d239efbd3cb33bc85f62850c99e10fe",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_joined.body": {
             "hash": "a52ff77239142abc61ad1949645d406d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_joined.label": {
             "hash": "d77912abe8be2b5866f54ffcd3030a46",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_joined.title": {
             "hash": "c4787ca84c0c478c4259543f92e2c5dc",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_left.body": {
             "hash": "f20c0d7b74cdc500a51b2e689166b30a",
@@ -794,15 +813,18 @@
         },
         "team_left.label": {
             "hash": "7172ff0deec7a528893b78b296fbbafc",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_left.title": {
             "hash": "05f40b0b7f8725721895b9daf9de203c",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_member_joined.body": {
             "hash": "a52ff77239142abc61ad1949645d406d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "team_member_joined.label": {
             "hash": "a0aa61196aac08ab8ba6ce0b9516b827",
@@ -810,19 +832,23 @@
         },
         "team_member_joined.title": {
             "hash": "9cef711a975c62f2c8fe8881f64968cc",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "warning.body": {
             "hash": "8096a0b41f56e13e9f81f05f317c8397",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "warning.label": {
             "hash": "7c50a1a42894387de4752d30621a7e62",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "warning.title": {
             "hash": "5b1aa42e09e38aa20b7144f46951bc94",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "common/notifications.he.yml": {
@@ -3138,11 +3164,13 @@
     "pages/notification_demo/index.fr.yml": {
         "document_title": {
             "hash": "3d43fa8d0dd0d27583f614b30348d5e1",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "inbox": {
             "hash": "509869cf6578ebc22e262d09a6514cc3",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "intro": {
             "hash": "a1f343382af998b8851eac86bb73eb6b",
@@ -3150,11 +3178,13 @@
         },
         "levels.danger": {
             "hash": "b6cd28065428f6416b006fdc482ee139",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "levels.info": {
             "hash": "8c750f7dea1953ac2694422200f5ebd2",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "levels.intro": {
             "hash": "3609ec9328f466c0010d4f45347fc537",
@@ -3162,15 +3192,18 @@
         },
         "levels.success": {
             "hash": "8cb6241e122ef412066105d72e4da528",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "levels.title": {
             "hash": "5ad6621c60c45aeb4c308ee3b5ac777d",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "levels.warning": {
             "hash": "57d5e7ad1b6fa8045c712b1beea55ff1",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "page_icon": {
             "hash": "49f662297f568adbb7f56bcedcd54608",
@@ -3178,11 +3211,13 @@
         },
         "page_title": {
             "hash": "806c679940057944b60d69894294e9bc",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "preferences": {
             "hash": "60df1eb1fca541a28f71e08faea77a38",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "reminder.intro": {
             "hash": "3debe92a023ff83864c8d6ddbc2dde2b",
@@ -3190,11 +3225,13 @@
         },
         "reminder.send": {
             "hash": "6f7bf4531fc84036f40d194acbfe52ef",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "reminder.title": {
             "hash": "a338ec29ce34fd3ab15a9f482ba1dd4b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "sent": {
             "hash": "200746f50e27e21a10d2662a585f1ded",
@@ -3210,7 +3247,8 @@
         },
         "sign_in_open": {
             "hash": "e5f9dec8e193e660d1ac4717b59eef41",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "teams.intro": {
             "hash": "74def603b5dcf78b04e18d03e432b15e",
@@ -3218,11 +3256,13 @@
         },
         "teams.open": {
             "hash": "21e129060dfda3da51c2db81a98c53df",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "teams.title": {
             "hash": "aa892040d1a7d9bd6c61aa3afe010bda",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/notification_demo/index.he.yml": {
