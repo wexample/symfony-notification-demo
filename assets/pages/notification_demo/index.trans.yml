@@ -28,6 +28,7 @@ en:
 
 fr:
   page_title: Notifications
+  document_title: "Notifications dans l'application et par e-mail"
   page_description: "Des notifications par niveau et par catégorie, livrées dans une boîte de réception de l'app et par e-mail, avec des préférences par catégorie pour couper l'e-mail."
   page_icon: 'ph:bold/bell'
   intro: "Informer les gens de ce qu'ils doivent savoir maintenant. Chaque notification arrive dans la boîte de réception ; le mail est un canal que chacun peut désactiver, par catégorie. En développement, les mails arrivent dans la boîte aux lettres."
@@ -55,7 +56,8 @@ fr:
 
 zh:
   page_title: 通知
-  page_description: "按级别和类别划分的通知，投递到应用内收件箱并通过邮件发送，可按类别设置关闭邮件。"
+  document_title: 应用内和电子邮件通知
+  page_description: 按级别和类别划分的通知，投递到应用内收件箱并通过邮件发送，可按类别设置关闭邮件。
   page_icon: 'ph:bold/bell'
   intro: 告诉人们他们现在必须知道的事情。每个通知都会出现在收件箱中；邮件是每个人可以按类别关闭的渠道。在开发中，邮件会发送到邮箱。
   inbox: 收件箱
@@ -82,7 +84,8 @@ zh:
 
 ar:
   page_title: الإشعارات
-  page_description: "إشعارات حسب المستوى والفئة، تصل إلى صندوق وارد داخل التطبيق وبالبريد الإلكتروني، مع تفضيلات لكل فئة لإيقاف البريد."
+  document_title: 'إشعارات داخل التطبيق والبريد الإلكتروني'
+  page_description: 'إشعارات حسب المستوى والفئة، تصل إلى صندوق وارد داخل التطبيق وبالبريد الإلكتروني، مع تفضيلات لكل فئة لإيقاف البريد.'
   page_icon: 'ph:bold/bell'
   intro: 'إعلام الناس بما يجب أن يعرفوه الآن. كل إشعار يصل إلى صندوق الوارد؛ البريد هو قناة يمكن لكل شخص إيقافها، حسب الفئة. في التطوير، تصل الرسائل إلى صندوق البريد.'
   inbox: 'صندوق الوارد'
@@ -109,7 +112,8 @@ ar:
 
 hi:
   page_title: सूचनाएँ
-  page_description: "स्तर और श्रेणी के अनुसार सूचनाएँ, ऐप के इनबॉक्स में और ईमेल से, हर श्रेणी के लिए ईमेल बंद करने की प्राथमिकताओं के साथ।"
+  document_title: 'ऐप और ईमेल सूचनाएँ'
+  page_description: 'स्तर और श्रेणी के अनुसार सूचनाएँ, ऐप के इनबॉक्स में और ईमेल से, हर श्रेणी के लिए ईमेल बंद करने की प्राथमिकताओं के साथ।'
   page_icon: 'ph:bold/bell'
   intro: 'लोगों को जो उन्हें अभी जानना चाहिए, वह बताना। हर सूचना इनबॉक्स में आती है; मेल एक चैनल है जिसे प्रत्येक श्रेणी के अनुसार बंद किया जा सकता है। विकास में मेल मेलबॉक्स में आते हैं।'
   inbox: इनबॉक्स
@@ -136,7 +140,8 @@ hi:
 
 he:
   page_title: התראות
-  page_description: "התראות לפי רמה וקטגוריה, הנמסרות לתיבת דואר באפליקציה ובאימייל, עם העדפות לכל קטגוריה לכיבוי האימייל."
+  document_title: 'התראות בתוך האפליקציה ודואר אלקטרוני'
+  page_description: 'התראות לפי רמה וקטגוריה, הנמסרות לתיבת דואר באפליקציה ובאימייל, עם העדפות לכל קטגוריה לכיבוי האימייל.'
   page_icon: 'ph:bold/bell'
   intro: 'ליידע אנשים מה הם חייבים לדעת עכשיו. כל התראה מגיעה לתיבת הדואר; הדואר הוא ערוץ שכל אחד יכול לכבות, לפי קטגוריה. במהלך הפיתוח, המיילים מגיעים לתיבת הדואר.'
   inbox: 'תיבת דואר'
@@ -163,7 +168,8 @@ he:
 
 fa:
   page_title: اعلان‌ها
-  page_description: "اعلان‌ها بر اساس سطح و دسته، تحویل‌شده به صندوق ورودی درون اپ و ایمیل، با تنظیمات هر دسته برای خاموش کردن ایمیل."
+  document_title: 'اطلاعیه‌های درون‌برنامه و ایمیلی'
+  page_description: 'اعلان‌ها بر اساس سطح و دسته، تحویل‌شده به صندوق ورودی درون اپ و ایمیل، با تنظیمات هر دسته برای خاموش کردن ایمیل.'
   page_icon: 'ph:bold/bell'
   intro: 'اطلاع‌رسانی به افراد درباره مواردی که اکنون باید بدانند. هر اعلان در صندوق ورودی قرار می‌گیرد؛ ایمیل یک کانال است که هر شخص می‌تواند آن را بر اساس دسته‌بندی خاموش کند. در حال توسعه، ایمیل‌ها در صندوق پستی قرار می‌گیرند.'
   inbox: 'صندوق ورودی'
@@ -190,7 +196,8 @@ fa:
 
 ur:
   page_title: نوٹیفکیشنز
-  page_description: "سطح اور زمرے کے لحاظ سے اطلاعات، ایپ کے ان باکس اور ای میل پر، ہر زمرے کے لیے ای میل بند کرنے کی ترجیحات کے ساتھ۔"
+  document_title: 'ایپ میں اور ای میل کے ذریعے اطلاعات'
+  page_description: 'سطح اور زمرے کے لحاظ سے اطلاعات، ایپ کے ان باکس اور ای میل پر، ہر زمرے کے لیے ای میل بند کرنے کی ترجیحات کے ساتھ۔'
   page_icon: 'ph:bold/bell'
   intro: 'لوگوں کو وہ معلومات بتانا جو انہیں فوری طور پر جاننا ضروری ہے۔ ہر نوٹیفکیشن ان باکس میں آتا ہے؛ میل ایک چینل ہے جسے ہر کوئی زمرے کے لحاظ سے بند کر سکتا ہے۔ ترقی کے دوران میل باکس میں آتی ہیں۔'
   inbox: 'ان باکس'
@@ -217,7 +224,8 @@ ur:
 
 ja:
   page_title: 通知
-  page_description: "レベルとカテゴリ別の通知を、アプリ内の受信箱とメールに配信。カテゴリごとにメールをオフにできます。"
+  document_title: アプリ内およびメール通知
+  page_description: レベルとカテゴリ別の通知を、アプリ内の受信箱とメールに配信。カテゴリごとにメールをオフにできます。
   page_icon: 'ph:bold/bell'
   intro: 今知っておくべきことを人々に伝えます。すべての通知は受信トレイに届きます。メールは各カテゴリごとにオフにできるチャンネルです。開発中はメールがメールボックスに届きます。
   inbox: 受信トレイ
@@ -244,7 +252,8 @@ ja:
 
 ko:
   page_title: 알림
-  page_description: "수준과 카테고리별 알림을 앱 내 받은편지함과 이메일로 전달하며, 카테고리마다 이메일을 끌 수 있습니다."
+  document_title: '앱 내 및 이메일 알림'
+  page_description: '수준과 카테고리별 알림을 앱 내 받은편지함과 이메일로 전달하며, 카테고리마다 이메일을 끌 수 있습니다.'
   page_icon: 'ph:bold/bell'
   intro: '사람들에게 지금 알아야 할 사항을 알립니다. 모든 알림은 수신함으로 들어오며, 메일은 각 카테고리별로 끌 수 있는 채널입니다. 개발 중에는 메일이 우편함에 도착합니다.'
   inbox: 수신함
@@ -271,7 +280,8 @@ ko:
 
 bn:
   page_title: নোটিফিকেশন
-  page_description: "স্তর ও বিভাগ অনুযায়ী বিজ্ঞপ্তি, অ্যাপের ইনবক্সে ও ইমেলে পৌঁছায়, প্রতিটি বিভাগে ইমেল বন্ধ করার পছন্দসহ।"
+  document_title: 'অ্যাপের মধ্যে এবং ইমেল বিজ্ঞপ্তি'
+  page_description: 'স্তর ও বিভাগ অনুযায়ী বিজ্ঞপ্তি, অ্যাপের ইনবক্সে ও ইমেলে পৌঁছায়, প্রতিটি বিভাগে ইমেল বন্ধ করার পছন্দসহ।'
   page_icon: 'ph:bold/bell'
   intro: 'যাদের জানানো উচিত, তাদের জানানো। প্রতিটি নোটিফিকেশন ইনবক্সে এসে পৌঁছে; মেইল হল একটি চ্যানেল যা প্রতিটি শ্রেণীর জন্য বন্ধ করা যেতে পারে। ডেভেলপমেন্টে মেইলগুলি মেইলবক্সে চলে আসে।'
   inbox: ইনবক্স
@@ -298,7 +308,8 @@ bn:
 
 th:
   page_title: การแจ้งเตือน
-  page_description: "การแจ้งเตือนตามระดับและหมวดหมู่ ส่งถึงกล่องข้อความในแอปและทางอีเมล พร้อมตั้งค่าปิดอีเมลได้ตามหมวดหมู่"
+  document_title: การแจ้งเตือนในแอปและอีเมล
+  page_description: 'การแจ้งเตือนตามระดับและหมวดหมู่ ส่งถึงกล่องข้อความในแอปและทางอีเมล พร้อมตั้งค่าปิดอีเมลได้ตามหมวดหมู่'
   page_icon: 'ph:bold/bell'
   intro: 'บอกผู้คนเกี่ยวกับสิ่งที่พวกเขาต้องรู้ตอนนี้ ทุกการแจ้งเตือนจะถูกส่งไปยังกล่องจดหมาย; อีเมลเป็นช่องทางที่แต่ละคนสามารถปิดได้ตามหมวดหมู่ ในการพัฒนาการ อีเมลจะไปถึงกล่องจดหมาย'
   inbox: กล่องจดหมาย
@@ -325,7 +336,8 @@ th:
 
 de:
   page_title: Benachrichtigungen
-  page_description: "Benachrichtigungen nach Stufe und Kategorie, zugestellt in einen Posteingang in der App und per E-Mail, mit Einstellungen je Kategorie, um die E-Mail abzuschalten."
+  document_title: 'In-App- und E-Mail-Benachrichtigungen'
+  page_description: 'Benachrichtigungen nach Stufe und Kategorie, zugestellt in einen Posteingang in der App und per E-Mail, mit Einstellungen je Kategorie, um die E-Mail abzuschalten.'
   page_icon: 'ph:bold/bell'
   intro: 'Den Leuten sagen, was sie jetzt wissen müssen. Jede Benachrichtigung landet im Posteingang; die E-Mail ist ein Kanal, den jeder nach Kategorie deaktivieren kann. In der Entwicklung landen die E-Mails im Postfach.'
   inbox: Posteingang
@@ -352,7 +364,8 @@ de:
 
 fi:
   page_title: Ilmoitukset
-  page_description: "Ilmoitukset tason ja luokan mukaan sovelluksen saapuneisiin ja sähköpostiin, ja luokkakohtaiset asetukset sähköpostin poistamiseksi käytöstä."
+  document_title: 'Sovelluksen sisäiset ja sähköposti-ilmoitukset'
+  page_description: 'Ilmoitukset tason ja luokan mukaan sovelluksen saapuneisiin ja sähköpostiin, ja luokkakohtaiset asetukset sähköpostin poistamiseksi käytöstä.'
   page_icon: 'ph:bold/bell'
   intro: 'Kerro ihmisille, mitä heidän on nyt tiedettävä. Jokainen ilmoitus päätyy saapuneisiin; sähköposti on kanava, jonka voi kytkeä pois päältä kunkin kategorian osalta. Kehityksessä sähköpostit päätyvät postilaatikkoon.'
   inbox: Saapuneet
@@ -379,7 +392,8 @@ fi:
 
 ru:
   page_title: Уведомления
-  page_description: "Уведомления по уровням и категориям — во входящих внутри приложения и по почте, с настройкой отключения писем для каждой категории."
+  document_title: 'Уведомления в приложении и по электронной почте'
+  page_description: 'Уведомления по уровням и категориям — во входящих внутри приложения и по почте, с настройкой отключения писем для каждой категории.'
   page_icon: 'ph:bold/bell'
   intro: 'Сообщаем людям, что им нужно знать прямо сейчас. Каждое уведомление попадает во входящие; почта — это канал, который каждый может отключить по категориям. В процессе разработки письма попадают в почтовый ящик.'
   inbox: Входящие
@@ -406,7 +420,8 @@ ru:
 
 pl:
   page_title: Powiadomienia
-  page_description: "Powiadomienia według poziomu i kategorii, dostarczane do skrzynki w aplikacji i e-mailem, z ustawieniami wyłączania e-maili dla każdej kategorii."
+  document_title: 'Powiadomienia w aplikacji i e-maile'
+  page_description: 'Powiadomienia według poziomu i kategorii, dostarczane do skrzynki w aplikacji i e-mailem, z ustawieniami wyłączania e-maili dla każdej kategorii.'
   page_icon: 'ph:bold/bell'
   intro: 'Informowanie ludzi o tym, co muszą teraz wiedzieć. Każde powiadomienie trafia do skrzynki odbiorczej; wiadomości to kanał, który każdy może wyłączyć według kategorii. W trakcie rozwoju wiadomości trafiają do skrzynki.'
   inbox: 'Skrzynka odbiorcza'
@@ -433,7 +448,8 @@ pl:
 
 es:
   page_title: Notificaciones
-  page_description: "Notificaciones por nivel y categoría, entregadas en una bandeja de entrada de la app y por correo, con preferencias por categoría para desactivar el correo."
+  document_title: 'Notificaciones en la aplicación y por correo electrónico'
+  page_description: 'Notificaciones por nivel y categoría, entregadas en una bandeja de entrada de la app y por correo, con preferencias por categoría para desactivar el correo.'
   page_icon: 'ph:bold/bell'
   intro: 'Informar a las personas lo que deben saber ahora. Cada notificación llega a la bandeja de entrada; el correo es un canal que cada uno puede desactivar, por categoría. En desarrollo, los correos llegan a la bandeja de entrada.'
   inbox: 'Bandeja de entrada'
@@ -460,6 +476,7 @@ es:
 
 it:
   page_title: Notifiche
+  document_title: 'Notifiche in-app e via email'
   page_description: "Notifiche per livello e categoria, recapitate in una casella nell'app e via email, con preferenze per categoria per disattivare l'email."
   page_icon: 'ph:bold/bell'
   intro: "Informare le persone su ciò che devono sapere ora. Ogni notifica arriva nella casella di posta; l'email è un canale che ognuno può disattivare, per categoria. In fase di sviluppo, le email arrivano nella casella di posta."
@@ -487,7 +504,8 @@ it:
 
 pt_BR:
   page_title: Notificações
-  page_description: "Notificações por nível e categoria, entregues numa caixa de entrada no app e por e-mail, com preferências por categoria para desligar o e-mail."
+  document_title: 'Notificações no aplicativo e por e-mail'
+  page_description: 'Notificações por nível e categoria, entregues numa caixa de entrada no app e por e-mail, com preferências por categoria para desligar o e-mail.'
   page_icon: 'ph:bold/bell'
   intro: 'Informando as pessoas sobre o que elas precisam saber agora. Cada notificação vai para a caixa de entrada; o e-mail é um canal que cada um pode desativar, por categoria. Em desenvolvimento, os e-mails vão para a caixa de entrada.'
   inbox: 'Caixa de entrada'
@@ -514,7 +532,8 @@ pt_BR:
 
 tr:
   page_title: Bildirimler
-  page_description: "Düzey ve kategoriye göre bildirimler; uygulama içi gelen kutusuna ve e-postayla iletilir, kategori bazında e-postayı kapatma tercihleriyle."
+  document_title: 'Uygulama içi ve e-posta bildirimleri'
+  page_description: 'Düzey ve kategoriye göre bildirimler; uygulama içi gelen kutusuna ve e-postayla iletilir, kategori bazında e-postayı kapatma tercihleriyle.'
   page_icon: 'ph:bold/bell'
   intro: 'İnsanlara şu anda bilmesi gerekenleri bildirmek. Her bildirim gelen kutusuna düşer; e-posta, her bir kategoride kapatılabilecek bir kanaldır. Geliştirme aşamasında e-postalar posta kutusuna ulaşır.'
   inbox: 'Gelen Kutusu'
@@ -541,7 +560,8 @@ tr:
 
 vi:
   page_title: 'Thông báo'
-  page_description: "Thông báo theo mức độ và danh mục, gửi đến hộp thư trong ứng dụng và qua email, với tùy chọn tắt email theo từng danh mục."
+  document_title: 'Thông báo trong ứng dụng và qua email'
+  page_description: 'Thông báo theo mức độ và danh mục, gửi đến hộp thư trong ứng dụng và qua email, với tùy chọn tắt email theo từng danh mục.'
   page_icon: 'ph:bold/bell'
   intro: 'Thông báo cho mọi người những điều họ cần biết ngay bây giờ. Mỗi thông báo đều đến hộp thư; email là một kênh mà mỗi người có thể tắt theo từng danh mục. Trong quá trình phát triển, email sẽ đến hộp thư.'
   inbox: 'Hộp thư'
@@ -568,7 +588,8 @@ vi:
 
 id:
   page_title: Notifikasi
-  page_description: "Notifikasi per tingkat dan kategori, dikirim ke kotak masuk dalam aplikasi dan lewat email, dengan preferensi per kategori untuk mematikan email."
+  document_title: 'Notifikasi dalam aplikasi dan email'
+  page_description: 'Notifikasi per tingkat dan kategori, dikirim ke kotak masuk dalam aplikasi dan lewat email, dengan preferensi per kategori untuk mematikan email.'
   page_icon: 'ph:bold/bell'
   intro: 'Memberitahukan orang-orang apa yang harus mereka ketahui sekarang. Setiap notifikasi masuk ke kotak masuk; email adalah saluran yang bisa dimatikan oleh masing-masing orang, per kategori. Dalam pengembangan, email masuk ke kotak surat.'
   inbox: 'Kotak Masuk'
@@ -595,7 +616,8 @@ id:
 
 nl:
   page_title: Meldingen
-  page_description: "Meldingen per niveau en categorie, afgeleverd in een inbox in de app en per e-mail, met voorkeuren per categorie om de e-mail uit te zetten."
+  document_title: 'In-app en e-mailmeldingen'
+  page_description: 'Meldingen per niveau en categorie, afgeleverd in een inbox in de app en per e-mail, met voorkeuren per categorie om de e-mail uit te zetten.'
   page_icon: 'ph:bold/bell'
   intro: 'Mensen vertellen wat ze nu moeten weten. Elke melding komt in de inbox; de mail is een kanaal dat iedereen per categorie kan uitschakelen. Tijdens de ontwikkeling komen de mails in de mailbox.'
   inbox: Inbox
