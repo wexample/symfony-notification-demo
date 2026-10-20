@@ -1,5 +1,6 @@
 en:
   page_title: Notifications
+  document_title: "In-app and email notifications"
   page_description: "Notifications by level and category, delivered to an in-app inbox and by email, with per-category preferences to turn the mail off."
   page_icon: ph:bold/bell
   intro: Telling people what they must know now. Every notification lands in the inbox; the mail is a channel each one may turn off, per category. In development the mails land in the mailbox.
