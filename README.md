@@ -1,6 +1,6 @@
 # symfony-notification-demo
 
-Version: 2.0.7
+Version: 2.0.8
 
 Demo of symfony-notification: notifications sent on request, a reminder once per window, and the teams of symfony-user-demo telling their members
 
@@ -25,7 +25,7 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=24.0.0
+- wexample/symfony-loader: >=25.0.0
 - wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-notification: >=2.1.0
 - wexample/symfony-notification-ds: >=2.0.0
