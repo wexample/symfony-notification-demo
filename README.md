@@ -1,65 +1,24 @@
 # symfony-notification-demo
 
-Version: 2.0.8
+Version: 2.0.9
 
 Demo of symfony-notification: notifications sent on request, a reminder once per window, and the teams of symfony-user-demo telling their members
 
 ## Table of Contents
 
-- [Integration in the Suite](#integration-in-the-suite)
-- [Dependencies](#dependencies)
-- [Versioning & Compatibility Policy](#versioning--compatibility-policy)
-- [License](#license)
-- [About us](#about-us)
-- [Migration Notes](#migration-notes)
+- [Installation](#installation)
 
-## Integration in the Suite
+## Installation
 
-This package is part of the Wexample Suite — a collection of high-quality, modular tools designed to work seamlessly together across multiple languages and environments.
+```php
+// config/bundles.php
+Wexample\SymfonyNotification\WexampleSymfonyNotificationBundle::class => ['all' => true],
+Wexample\SymfonyNotificationDs\WexampleSymfonyNotificationDsBundle::class => ['all' => true],
+Wexample\SymfonyNotificationDemo\WexampleSymfonyNotificationDemoBundle::class => ['all' => true],
+```
 
-### Related Packages
+The demo of symfony-notification, at `/notification-demo/`, on the accounts and teams of symfony-user-demo — it has no users of its own. It declares its categories itself: installing the bundle is all there is to do, beside the migration of symfony-notification's tables.
 
-The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
-
-## Dependencies
-
-- php: >=8.5
-- wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=25.0.0
-- wexample/symfony-design-system: >=39.0.0
-- wexample/symfony-notification: >=2.1.0
-- wexample/symfony-notification-ds: >=2.0.0
-- wexample/symfony-user: >=14.0.0
-- wexample/symfony-user-demo: >=8.0.0
-
-## Versioning & Compatibility Policy
-
-Wexample packages follow **Semantic Versioning** (SemVer):
-
-- **MAJOR**: Breaking changes
-- **MINOR**: New features, backward compatible
-- **PATCH**: Bug fixes, backward compatible
-
-We maintain backward compatibility within major versions and provide clear migration guides for breaking changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Free to use in both personal and commercial projects.
-
-## About us
-
-[Wexample](https://wexample.com) stands as a cornerstone of the digital ecosystem — a collective of seasoned engineers, researchers, and creators driven by a relentless pursuit of technological excellence. More than a media platform, it has grown into a vibrant community where innovation meets craftsmanship, and where every line of code reflects a commitment to clarity, durability, and shared intelligence.
-
-This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
-
-Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
-
-Built and maintained by [Romain Weeger](https://weeger.io).
-
-## Migration Notes
-
-When upgrading between major versions, refer to the migration guides in the documentation.
-
-Breaking changes are clearly documented with upgrade paths and examples.
+- One notification per level, sent to oneself on request.
+- A reminder sent with `notifyOnce()`, at most once an hour.
+- The teams of symfony-user-demo telling their members: added, access changed, removed, and on arrival the other administrators. Read from the security journal symfony-user writes each membership change to (`TeamNotificationSubscriber`), so the user demo knows nothing of notifications.
