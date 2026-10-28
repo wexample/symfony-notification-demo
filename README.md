@@ -1,6 +1,6 @@
 # symfony-notification-demo
 
-Version: 2.0.13
+Version: 2.0.14
 
 Demo of symfony-notification: notifications sent on request, a reminder once per window, and the teams of symfony-user-demo telling their members
 
