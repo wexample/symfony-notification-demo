@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-notification-demo",
   "description": "Demo of symfony-notification: notifications sent on request, a reminder once per window, and the teams of symfony-user-demo telling their members",
-  "version": "2.0.24",
+  "version": "2.0.25",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -19,7 +19,7 @@
     "php": ">=8.5",
     "wexample/symfony-helpers": ">=19.3.0",
     "wexample/symfony-loader": ">=28.0.0",
-    "wexample/symfony-design-system": ">=46.0.0",
+    "wexample/symfony-design-system": ">=47.0.0",
     "wexample/symfony-notification": ">=2.2.0",
     "wexample/symfony-notification-ds": ">=2.0.8",
     "wexample/symfony-user": ">=22.0.0",
